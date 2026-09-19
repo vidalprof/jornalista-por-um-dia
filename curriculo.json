@@ -3,7 +3,18 @@
  "componente": "Língua Portuguesa",
  "rede": "Currículo da Educação Básica do Sistema Municipal de Ensino de Blumenau",
  "documento": "_curriculo/blumenau.txt",
- "conceitos": [],
+ "conceitos": [
+  "fotolegenda em notícia",
+  "manchete",
+  "lide em notícia",
+  "álbum de fotos digital noticioso",
+  "notícia curta para público infantil",
+  "condição de produção",
+  "conteúdo temático",
+  "formatação e diagramação",
+  "curadoria de fotos",
+  "temporalidade (ordem de acontecimento dos fatos)"
+ ],
  "fora_do_curriculo": [],
  "degrau": 10,
  "evidencia": [
@@ -22,9 +33,9 @@
   "TRÊS BLOCOS NÃO VÊM DE FOLHA NENHUMA, e estão declarados: a TEMPORALIDADE (folhas 25-27), o ONDE A NOTÍCIA CIRCULA (22-24) e o ÁLBUM DE FOTOS (folha 34). Os três o currículo pede e nenhuma das quarenta folhas cobre.",
   "AS QUATRO PERGUNTAS DO LIDE VÊM DA FOLHA DE PAPEL, em palavras de criança: 'O que aconteceu? Quando? Onde? Com quem?' (d04). Três outras folhas (d09, d14, d17) repetem as mesmas — e é isso que prova que são O conteúdo deste degrau. O caderno nunca diz 'lide' antes da folha 35.",
   "O CONCEITO VEM POR ÚLTIMO: os nomes MANCHETE, LEGENDA, FOTO e LIDE só se juntam no cartaz da folha 35, e mesmo lá ao lado das palavras de criança.",
-  "O `conceitos` está VAZIO de propósito, e isso NÃO é 'passou': o portão 0b9 dirá NÃO MEDI a sexta pergunta. O PDF da rede traz cabeçalho por ano apenas em Ciências, Geografia e História; Português vem em faixas, e medir no documento inteiro aprovaria conteúdo de outro ano. Prefiro dizer que não medi a medir errado.",
   "AS FOTOS DE PESSOAS REAIS DAS FOLHAS d24, d34, d17, d22 e d11 FICARAM DE FORA: são fotografias de gente identificável publicadas em material de terceiros. Desenho a traço e clip-art de folha de atividade entram; retrato de pessoa real, não. (O beija-flor da d29 é foto, mas de um passarinho.)",
-  "METADE DAS FIGURAS NÃO TEM FUNDO TRANSPARENTE, e é de propósito: o degrau é a FOTOLEGENDA, e foto tem moldura. Um cachorro recortado flutuando não é uma foto de jornal; o mesmo cachorro dentro do seu retângulo, com céu e grama, é."
+  "METADE DAS FIGURAS NÃO TEM FUNDO TRANSPARENTE, e é de propósito: o degrau é a FOTOLEGENDA, e foto tem moldura. Um cachorro recortado flutuando não é uma foto de jornal; o mesmo cachorro dentro do seu retângulo, com céu e grama, é.",
+  "⭐ A SEXTA PERGUNTA DO PEDAGOGO (o CONTEÚDO cabe no ano?) FOI CONFERIDA À MÃO, e a conferência inteira está em `conceitos_conferencia`, aqui mesmo: o quadro do 2º ano, CAMPO DA VIDA PÚBLICA, nomeia dez conceitos, o caderno ensina esses dez e mais nenhum. O portão 0b9 não consegue medir isso em Português porque o PDF da rede não traz cabeçalho por ano nesse componente (traz em Ciências, Geografia e História — rodei os quatro para confirmar). Crivo à mão não é medida: está escrito para o professor poder refazer."
  ],
  "objetivos": [
   {
@@ -166,5 +177,28 @@
    "objeto": "Escrita compartilhada",
    "habilidade": "HABILIDADE: \"Planejar, produzir, revisar e reescrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
   }
- ]
+ ],
+ "conceitos_conferencia": {
+  "como": "CONFERÊNCIA À MÃO, porque o portão 0b9 NÃO CONSEGUE medir esta pergunta em Português — e isso foi verificado, não suposto: o `bloco_do_ano()` do `_qa/pedagogo_curriculo.py` procura um cabeçalho 'LINGUA PORTUGUESA – ANOS INICIAIS – 2o ANO' no `_curriculo/blumenau.txt` e ele NÃO EXISTE (existe em Ciências, Geografia e História, e eu rodei os quatro para confirmar). Medir no documento inteiro aprovaria conteúdo de outro ano, que foi exatamente o defeito da Coroa dos Cinco Reinos. Então a conferência foi feita OLHANDO o quadro, e está escrita aqui para o professor poder refazer.",
+  "onde": "_curriculo/blumenau.txt, linhas 3190 a 3231 — as TRÊS linhas do quadro '2º ANO / CAMPO DA VIDA PÚBLICA' (Leitura/escuta, Escrita e Análise linguística/semiótica).",
+  "o_que_o_quadro_nomeia": [
+   "Gêneros do discurso: fotolegenda em notícia, manchete e lide em notícia, álbum de fotos digital noticioso e notícia (curta para público infantil), entre outros.",
+   "Conceitos/conteúdos (leitura e escrita): condição de produção (quem promove o discurso, para quem, com que propósito comunicativo, em que locais circulam esses discursos), conteúdo temático (de que trata o texto-enunciado).",
+   "Conceitos/conteúdos (análise linguística/semiótica): formatação e diagramação; curadoria de fotos; temporalidade (ordem de acontecimento dos fatos)."
+  ],
+  "onde_cada_um_é_ensinado": {
+   "fotolegenda em notícia": "folhas 1 a 6 — a foto fala, e a legenda que a explica",
+   "manchete": "folhas 7 a 9, e a folha 33 (a manchete é da criança)",
+   "lide em notícia": "folhas 10 a 12 — o quê, com quem, onde, quando",
+   "álbum de fotos digital noticioso": "folha 34",
+   "notícia curta para público infantil": "folhas 10 a 15, 25, 31 e 32 — todas as notícias do caderno têm três linhas ou menos",
+   "condição de produção": "folhas 22 a 24 — quem escreve, para quem, por onde circula",
+   "conteúdo temático": "folha 32 — 'qual é o assunto dela?'",
+   "formatação e diagramação": "folhas 19 a 21 — as partes do jornal e o lugar de cada uma na página",
+   "curadoria de fotos": "folhas 4, 5, 8 e 9 — qual foto serve para esta legenda, e qual manchete serve para esta foto",
+   "temporalidade (ordem de acontecimento dos fatos)": "folhas 25 a 27"
+  },
+  "nada_fora_do_ano": "Conferi o caminho inverso também: TODO conceito que o caderno ensina está na lista acima. Ele não usa 'parágrafo', 'subtítulo', 'olho', 'infográfico', 'imparcialidade' nem 'sensacionalismo' — todos apareceram nas folhas colhidas (d07, d09, d19, d26) e todos são de anos maiores. A palavra LIDE só aparece no cartaz da folha 35; até lá as quatro perguntas são feitas com as palavras da folha de papel d04: 'O que aconteceu? Quando? Onde? Com quem?'.",
+  "o_que_isto_NÃO_é": "NÃO é medida automática. É crivo meu, e crivo é do Claude, não é portão. Se o PDF da rede um dia ganhar cabeçalho por ano em Português, o 0b9 passa a medir isto sozinho e esta conferência vira redundante — o que é o desejado."
+ }
 }

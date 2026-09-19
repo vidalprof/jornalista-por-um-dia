@@ -586,7 +586,15 @@ img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;user-drag:n
   padding:8px 10px;justify-content:flex-start;text-align:left}
 .trilhaord.passos .slot .rot{text-align:left;font-size:clamp(12px,3.3vw,15px)}
 /* a linha de casas do "reescreva certo": uma palavra por vez */
-.cruz.uma{grid-auto-flow:column;justify-content:center;margin:4px auto 2px}
+/* ⚠️ A FILA DE CASINHAS DE ESCREVER QUEBRA A LINHA (19/set/2026). Com
+   `grid-auto-flow:column` ela cresce para a direita sem parar: GOLFINHO (8
+   letras) já saltava do cartão no celular e a última casinha ficava fora da
+   tela — a criança escrevia às cegas. Flex com `wrap` desce para a segunda
+   linha, que é o que a folha de papel faz. */
+.cruz.uma{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;
+  width:auto;max-width:100%;margin:4px auto 2px}
+.cruz.uma .ccel{width:clamp(42px,9vw,50px);height:clamp(42px,9vw,50px);
+  min-width:42px;min-height:42px;flex:none}
 .pista.oculta{display:none}
 /* o cartaz do fecho: as regras que a criança escolheu, uma embaixo da outra */
 .rua.cartaz{flex-direction:column;align-items:stretch;gap:6px;padding:10px;
@@ -684,7 +692,22 @@ img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;user-drag:n
    a casinha da cruzadinha estava com 34 px e a peça de sílaba com 21 px
    de altura. O portão do leiaute só viu quando passou a andar folha por
    folha; antes ele parava na sexta. */
-.ccel{width:clamp(44px,9vw,50px);height:clamp(44px,9vw,50px);min-width:44px;min-height:44px;border:0;background:transparent;padding:0}
+/* ⚠️ DUAS PEÇAS USAM `.ccel`, E ELAS QUEREM TAMANHOS DIFERENTES
+   (19/set/2026). Esta linha, que veio no bloco de peças clonadas, subia a
+   casinha para 44 px — certo na FILA DE ESCREVER, errado na CRUZADINHA:
+   com nove colunas de 44 px a grade media 422 px e saltava de um celular
+   de 360. A criança via a cruzadinha cortada e não alcançava as casinhas
+   da direita. Agora a casinha grande mora só em `.cruz.uma .ccel` (acima),
+   e a da cruzadinha ficou com o mesmo tamanho grande.
+   ⚠️ E O CONSERTO DA CRUZADINHA NÃO FOI ENCOLHER A CASINHA — foi ESTREITAR A
+      GRADE. Encolher passava o problema para o dedo: o portão 4b (leiaute a
+      mão) reprovou 22 alvos de 30 px na mesma folha. O empacotador da
+      `cruzadinha()` é determinístico: ele depende SÓ da ordem do pote. Rodei as
+      120 ordens possíveis das cinco palavras e a ordem FOTO, JORNAL, RADIO,
+      TITULO, DATA dá 5 colunas por 11 linhas (218 px) no lugar de 9 por 7
+      (422 px). Rolar para baixo a criança já faz; para o lado, não. */
+.ccel{width:clamp(42px,9vw,50px);height:clamp(42px,9vw,50px);
+  min-width:42px;min-height:42px;border:0;background:transparent;padding:0}
 .sil{font:800 clamp(17px,4.6vw,22px)/1 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   min-width:52px;min-height:46px;padding:10px 14px;border-radius:12px;
   border:2px solid #c6cde0;background:#fff;color:#243056;cursor:pointer;
@@ -754,7 +777,17 @@ img{-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;user-drag:n
 .figalvo.erro{border-color:#e2574c;background:#fff4f3}
 .cpgrade{display:flex;flex-direction:column;gap:3px;align-items:center;margin:4px 0 8px}
 .cplin{display:flex;gap:3px}
-.cpcel{width:clamp(44px,9vw,50px);height:clamp(44px,9vw,50px);min-width:44px;min-height:44px;
+/* ⚠️ A GRADE DO CAÇA-PALAVRAS NÃO PODE SAIR DA TELA (19/set/2026): com 9
+   colunas de 47 px a última coluna ficava FORA do celular, e a criança não
+   alcançava a última letra de MANCHETE. A célula agora divide a largura
+   disponível. ⚠️ E O PISO DO ALVO NÃO SE NEGOCIA: 42 px. Quem encolheu foi a
+   GRADE, que passou de 9 para 7 colunas — MANCHETE tem oito letras e não cabe
+   num celular de 320 px com a casinha do tamanho do dedo. Ela não some do
+   caderno: é o assunto das folhas 7, 8, 9, 17 e 35. Aqui entra pelo sinônimo
+   que o próprio caderno usa, TÍTULO. */
+.cpgrade{max-width:100%}
+.cplin{max-width:100%}
+.cpcel{width:clamp(42px,11vw,50px);height:clamp(42px,11vw,50px);min-width:42px;min-height:42px;flex:none;
   border:2px solid #d9c9bb;border-radius:6px;background:#fff;font-weight:900;
   font-size:clamp(12px,3.4vw,16px);color:var(--texto3);cursor:pointer;padding:0}
 .cpcel.pega{background:#fff0c2;border-color:#f5c542}
@@ -977,7 +1010,7 @@ var ITENS = {
  "p27": ["dd1", "dd2", "dd3", "dd4", "dd5"],
  "p28": ["ee1", "ee2", "ee3", "ee4"],
  "p29": ["ff1", "ff2", "ff3", "ff4"],
- "p30": ["gg1", "gg2", "gg3", "gg4", "gg5", "gg6", "gg7"],
+ "p30": ["gg2", "gg1", "gg3", "gg4", "gg5"],
  "p31": ["hh1", "hh2", "hh3", "hh4", "hh5"],
  "p32": ["ii1", "ii2", "ii3", "ii4", "ii5"],
  "p33": ["jj1", "jj2", "jj3", "jj4"],
@@ -1109,13 +1142,11 @@ var FALAS = {
  "certo2_b2": "Muito bem! São bolo, balões, presente.",
  "certo2_b3": "Você acertou! São livros, crianças, chão.",
  "certo2_b4": "Boa! São jornal, chapéu, homem.",
- "certo30_gg1": "Isso mesmo! O papel que traz as notícias: Jornal.",
- "certo30_gg2": "Muito bem! A imagem da notícia: Foto.",
+ "certo30_gg1": "Muito bem! O papel que traz as notícias: Jornal.",
+ "certo30_gg2": "Isso mesmo! A imagem da notícia: Foto.",
  "certo30_gg3": "Você acertou! O aparelho em que a gente só escuta: Radio.",
  "certo30_gg4": "Boa! O nome que vem lá no alto: Titulo.",
  "certo30_gg5": "Exatamente! O dia em que o jornal saiu: Data.",
- "certo30_gg6": "É isso aí! A frase que fica embaixo da foto: Legenda.",
- "certo30_gg7": "Isso mesmo! O texto que conta o que aconteceu: Noticia.",
  "certo31_hh1": "Isso mesmo! Para que serve este texto? Para avisar as pessoas.",
  "certo31_hh2": "Muito bem! Para que serve este texto? Para chamar as pessoas.",
  "certo31_hh3": "Você acertou! Para que serve este texto? Para contar o que aconteceu.",
@@ -1183,8 +1214,8 @@ var FALAS = {
  "cp_ee2": "A imagem que a legenda explica.",
  "cp_ee3": "Conta o que aconteceu de verdade.",
  "cp_ee4": "O aparelho em que a gente só escuta.",
- "cp_ff1": "O título grande da notícia.",
- "cp_ff2": "A frase que fica embaixo da foto.",
+ "cp_ff1": "A frase que fica embaixo da foto.",
+ "cp_ff2": "Outro nome da manchete, o que vem lá no alto.",
  "cp_ff3": "O tempo em que a escola para e a criança descansa.",
  "cp_ff4": "O dia em que o jornal saiu.",
  "crz_gg1": "o papel que traz as notícias.",
@@ -1192,8 +1223,6 @@ var FALAS = {
  "crz_gg3": "o aparelho em que a gente só escuta.",
  "crz_gg4": "o nome que vem lá no alto.",
  "crz_gg5": "o dia em que o jornal saiu.",
- "crz_gg6": "a frase que fica embaixo da foto.",
- "crz_gg7": "o texto que conta o que aconteceu.",
  "dica10_k1": "Olhe a foto de novo, com calma. A resposta está nela.",
  "dica10_k2": "Leia as opções em voz alta. Só uma combina com o que você viu.",
  "dica10_k3": "Pergunte para você mesmo: isto é mesmo coisa de jornal?",
@@ -1297,8 +1326,6 @@ var FALAS = {
  "dica30_gg3": "Conte as casinhas e lembre da página de jornal.",
  "dica30_gg4": "Conte as casinhas e lembre da página de jornal.",
  "dica30_gg5": "Conte as casinhas e lembre da página de jornal.",
- "dica30_gg6": "Conte as casinhas e lembre da página de jornal.",
- "dica30_gg7": "Conte as casinhas e lembre da página de jornal.",
  "dica31_hh1": "Olhe a foto de novo, com calma. A resposta está nela.",
  "dica31_hh2": "Leia as opções em voz alta. Só uma combina com o que você viu.",
  "dica31_hh3": "Pergunte para você mesmo: isto é mesmo coisa de jornal?",
@@ -1550,7 +1577,7 @@ var FALAS = {
  "p26enun": "As cenas da notícia do passarinho estão embaralhadas. Ponha cada uma no lugar dela.",
  "p27enun": "Agora a notícia do golfinho. Da primeira cena à última.",
  "p28enun": "Ache na grade a palavra que a pista descreve: toque na primeira letra e depois na última.",
- "p29enun": "Agora as palavras do jornal. Na grade não há acento: procure NOTICIA, não notícia.",
+ "p29enun": "Agora as partes do jornal. Na grade não há acento: procure TITULO, não título.",
  "p2enun": "Olhe a foto com calma e marque tudo o que ela mostra. Depois toque em Conferir.",
  "p30enun": "Toque numa pista, escute e escreva a palavra.",
  "p31enun": "Nem todo texto serve para a mesma coisa. Leia e diga para que serve.",
@@ -1916,7 +1943,7 @@ var FALAS = {
  "vozOn": "Narração ligada!"
 };
 /*FALAS-FIM*/
-/*VOZOK-INI*/var VOZOK = {"hup8oy": 1, "10tq9gp": 1, "aj79w7": 1, "jy3q3k": 1, "1wnhhoa": 1, "bm53en": 1, "7sgprh": 1, "kl8a1u": 1, "hzi18t": 1, "up8knm": 1, "1d7exxv": 1, "1a4fhf9": 1, "aspjj9": 1, "4s7bkl": 1, "1ch2ld8": 1, "1lultct": 1, "1eg4j4f": 1, "1hsjucq": 1, "12pcsiu": 1, "i43wxc": 1, "1sijxk1": 1, "2e5rzg": 1, "1xxkkz3": 1, "1lfmh4n": 1, "1pg74ly": 1, "1a1vojv": 1, "u30pf0": 1, "cbbef": 1, "crvgj4": 1, "1n8qr2c": 1, "3x0ygz": 1, "6cl2vo": 1, "mvk3c3": 1, "t41hv9": 1, "lzj52f": 1, "1izfug4": 1, "dkwrkl": 1, "1u092bf": 1, "8272as": 1, "1h33k6p": 1, "1171tm0": 1, "sb9stz": 1, "1ac70al": 1, "4d30ij": 1, "1q54noc": 1, "1949rnw": 1, "13l8ioi": 1, "19z76ul": 1, "1bfhxsp": 1, "t4q39n": 1, "15cngpl": 1, "ic6oug": 1, "1wdac8q": 1, "1b8wx3y": 1, "11t8ns8": 1, "vmy2v0": 1, "1dmd5eh": 1, "2n8hxu": 1, "1kxtd05": 1, "yokbid": 1, "1drzbq0": 1, "14amrvz": 1, "nwyg2i": 1, "c2oigw": 1, "t9j8bs": 1, "2k97kz": 1, "1nj1rvv": 1, "10mn1hd": 1, "1vvtlvo": 1, "1k1x3mc": 1, "1n9xz4y": 1, "17li7lc": 1, "yrhmpl": 1, "1s46y2b": 1, "rf7jma": 1, "10iaoav": 1, "me8fjc": 1, "1tbi951": 1, "1acqtsp": 1, "g2y223": 1, "182246b": 1, "t0nsd4": 1, "1vshqdt": 1, "xjok0o": 1, "959f8l": 1, "xi7yzd": 1, "6p1eq6": 1, "1o0vy7s": 1, "nn8h9k": 1, "hf4roi": 1, "15p3hif": 1, "17u0hi8": 1, "z19s6a": 1, "blp7wt": 1, "1q515mv": 1, "4qgd7m": 1, "15j548s": 1, "nzliat": 1, "1gjv127": 1, "15ny0e6": 1, "c0fo0y": 1, "1cjzf5d": 1, "1wltmk4": 1, "13xaxzf": 1, "doaa55": 1, "cbblga": 1, "15qirw6": 1, "uwlpsc": 1, "6wt7kl": 1, "168vvo7": 1, "z93v39": 1, "ku1apm": 1, "1r85tch": 1, "1gpoxli": 1, "154naz4": 1, "j696u1": 1, "1i04mw6": 1, "wx39c9": 1, "1uk8wgi": 1, "1t2ueov": 1, "3m1409": 1, "1fchd28": 1, "1ykwayp": 1, "w3su9r": 1, "1bwik0s": 1, "sy5bvx": 1, "xkh1mg": 1, "87skc7": 1, "gmwevi": 1, "12gdkqx": 1, "1c5year": 1, "14k8zse": 1, "1tc81is": 1, "ud6ntt": 1, "1xfjxkl": 1, "1pj6o45": 1, "13bdp1m": 1, "zektnl": 1, "84d5ba": 1, "1bq7ng5": 1, "6kwjzk": 1, "1myzkmf": 1, "13grueh": 1, "1y41ild": 1, "145aan9": 1, "19icea1": 1, "1995ul7": 1, "h5q4ra": 1, "norvom": 1, "1ierpq2": 1, "1r8yzvs": 1, "1prwydz": 1, "1jgzw4j": 1, "1e0gwhf": 1, "rimpim": 1, "ddw1un": 1, "1d1a4mf": 1, "1dvqnlu": 1, "ae5xlu": 1, "pu77fu": 1, "41xs29": 1, "191u7rt": 1, "188ctas": 1, "uxljei": 1, "1qyi785": 1, "rx3qyl": 1, "1xfu2r9": 1, "m3fz6q": 1, "v8pfav": 1, "1gn0ol9": 1, "1qu6968": 1, "ovh15q": 1, "hn3cdp": 1, "w3c4o": 1, "15zdd63": 1, "1efqlqq": 1, "gjsawd": 1, "1b5hw9y": 1, "1ff7qy7": 1, "sswfki": 1, "1rno7q4": 1, "66kro2": 1, "8h3zod": 1, "7j6jla": 1, "18f239t": 1, "2z94ce": 1, "hs949s": 1, "160h3rh": 1, "jlegpp": 1, "13iq5yi": 1, "7v866v": 1, "16wghag": 1, "aidjf6": 1, "a99fxj": 1, "rdr9r7": 1, "ick0lw": 1, "1rasf42": 1, "q236ye": 1, "15hwiq0": 1, "1scibu7": 1, "j03anr": 1, "1mbuzbr": 1, "1xc79v6": 1, "ib6erl": 1, "1jtrgaz": 1, "olt6yi": 1, "kfxilv": 1, "9833y5": 1, "yqifb1": 1, "c7rp09": 1, "lur5eb": 1, "1lwdyyj": 1, "k0zskn": 1, "1pffno0": 1, "vqf9ft": 1, "7twb75": 1, "ha4c4y": 1, "1687n97": 1, "1htlv8o": 1, "1arw52w": 1, "wjkrlx": 1, "1c8diit": 1, "1q7lqa0": 1, "1jr5fqn": 1, "td01bm": 1, "faqjtu": 1, "13gqyb0": 1, "1878u17": 1, "ytbncd": 1, "6w8i23": 1, "ejwvfg": 1, "3pwg46": 1, "jk516i": 1, "2d69ug": 1, "1l2bz4u": 1, "1051izd": 1, "17edgnn": 1, "183xv2l": 1, "s69mtb": 1, "1k5w7n3": 1, "1vek3c0": 1, "10t5tht": 1, "1ioxpma": 1, "1fdl1td": 1, "u33b14": 1, "tqmvl4": 1, "1akbxoy": 1, "10oyez0": 1, "14wr3ue": 1, "5fl2q6": 1, "1gzn91v": 1, "1izhyeh": 1, "19zcgy": 1, "d02pkh": 1, "d6l8ic": 1, "112jzou": 1, "kaoxpc": 1, "1ew5d3b": 1, "1eihodk": 1, "1d9s73k": 1, "a764su": 1, "a29far": 1, "1kzifu4": 1, "1gxyh25": 1, "16q027g": 1, "h8g0mh": 1, "12ivp4v": 1, "1eit8hn": 1, "12lolqw": 1, "a9ubyd": 1, "e9kar9": 1, "1y3qfck": 1, "d4412q": 1, "1x4got": 1, "tw9jav": 1, "9o2hbb": 1, "10i0dtu": 1, "bx5si3": 1, "q7x6se": 1, "1kpfd4o": 1, "1ocv2vx": 1, "1ikdfmr": 1, "1cjcc5y": 1, "14ch563": 1, "1p9xb2u": 1, "16k0dfv": 1, "1lbec4r": 1, "2tx195": 1, "2pmzkr": 1, "199sf2y": 1, "2v3spb": 1, "lmtnfh": 1, "19y089f": 1, "wp51iy": 1, "1kem4sf": 1, "1jiktbk": 1, "179jksy": 1, "1j99i9a": 1, "m2hk1": 1, "wy7dae": 1, "1i6djyz": 1, "urkeo1": 1, "16t3842": 1, "1ntnzyb": 1, "l6cd2e": 1, "p8tfod": 1, "qp55ei": 1, "crfyd0": 1, "k862gs": 1, "1at4smq": 1, "m673c": 1, "hwiro3": 1, "15uheax": 1, "1ko9gq3": 1, "n1zo1f": 1, "ludng9": 1, "19xmqdb": 1, "2wk6f9": 1, "131y4yv": 1, "1gdzx8l": 1, "w5emvp": 1, "m2fqma": 1, "1t15dxy": 1, "2xbx7w": 1, "1ig3e1w": 1, "142j7u3": 1, "1rjpvcd": 1, "pyqgeh": 1, "2uezfa": 1, "1d485nt": 1, "w5olmn": 1, "1pdcaoo": 1, "5v84fe": 1, "1a9gcc5": 1, "bq0k2i": 1, "1k56yc9": 1, "1eri4e6": 1, "4lbza1": 1, "qh7pi4": 1, "18ws8bs": 1, "16714oi": 1, "2tvvsv": 1, "1fmg5wc": 1, "j4hgsp": 1, "12kccza": 1, "12a3ifd": 1, "1v0uz5b": 1, "1bokqor": 1, "4v68bs": 1, "1uxypr9": 1, "jykomn": 1, "1vby9s1": 1, "pcbbg2": 1, "z6n48o": 1, "1x7hjks": 1, "81ck1s": 1, "u9k63u": 1, "wbd6l8": 1, "zgzut9": 1, "jera9j": 1, "t5po13": 1, "16hwwfp": 1, "yrpqag": 1, "15nxeh8": 1, "1dm8vzo": 1, "xlnjhk": 1, "1xeydsy": 1, "bj3sgh": 1, "2uwmzv": 1, "yhssqw": 1, "dhnten": 1, "j6ny7w": 1, "1ux6y5u": 1, "123f7v2": 1, "1swvm7y": 1, "ja20zq": 1, "1p0jrmi": 1, "d9ipj0": 1, "ikvvu9": 1, "aqtk6p": 1, "1u955ti": 1, "13i0o59": 1, "1sf9nuv": 1, "e244zp": 1, "1tncx8s": 1, "1kkn8i6": 1, "1whc1zv": 1, "xc0pt": 1, "wljzv0": 1, "17tfti4": 1, "km2xgd": 1, "1sx86v7": 1, "9b7aah": 1, "1y9dwph": 1, "1pmjrnc": 1, "9kmg14": 1, "jlrm13": 1, "1jolx2j": 1, "8cyma1": 1, "gprm2c": 1, "13w1920": 1, "bpm5oi": 1, "m80f4c": 1, "1c8qv5v": 1, "qqdxt6": 1, "6t23mp": 1, "1sctnod": 1, "1119gm5": 1, "j6drql": 1, "qivvmj": 1, "4d557g": 1, "1ph9lp6": 1, "1a18pu1": 1, "c4pqr5": 1, "cvdvky": 1, "1xvxvjh": 1, "k6zrec": 1, "ck59os": 1, "xwvmim": 1, "q06wku": 1, "16c16n1": 1, "17obqcf": 1, "1q0hcfw": 1, "678iwv": 1, "1gdj5p9": 1, "1hlcctd": 1, "1domzwo": 1, "bbhvus": 1, "1nezgfe": 1, "1xg7z0w": 1, "12hpk5v": 1, "1griig8": 1, "ozgjhi": 1, "17c89ze": 1, "4is7i5": 1, "1ypb1ty": 1, "37vhis": 1, "fvojrj": 1, "1n5xoud": 1, "1607g6x": 1, "1tk7pfs": 1, "1qj7tm6": 1, "1v4qqtw": 1, "wqxiw3": 1, "7jlzgf": 1, "zzukro": 1, "zwinm4": 1, "kut99q": 1, "1bh8fxk": 1, "1qbf5jt": 1, "1uxqod4": 1, "kh3wgx": 1, "b03wnf": 1, "1nf1pck": 1, "18anqi4": 1, "up0ih": 1, "1os5dxy": 1, "v31bb3": 1, "ch2o5o": 1, "7u1ikd": 1, "b8so4q": 1, "ykasfw": 1, "1j9v8dq": 1, "fbu5w1": 1, "14g75ud": 1, "1qzj40g": 1, "1nlbhq5": 1, "1ibx5vo": 1, "1t7sa7d": 1, "1h2ltpz": 1, "abzyvt": 1, "1iicd4r": 1, "1bm8vur": 1, "1bougql": 1, "1uwyivr": 1, "wdp02": 1, "1nu0ylo": 1, "g2rvrm": 1, "7ouokq": 1, "am3byv": 1, "17ds168": 1, "t60t02": 1, "g312s2": 1, "1osmduf": 1, "6orgy": 1, "pqwyvw": 1, "clc13g": 1, "f4791f": 1, "1p7dfr6": 1, "otofle": 1, "soclnr": 1, "15qyi67": 1, "mqbo1n": 1, "12cpy5u": 1, "ojkumz": 1, "1hl77ls": 1, "1r0z0n": 1, "7asiao": 1, "hiuz3h": 1, "1754v19": 1, "1r6ln88": 1, "1u9gika": 1, "jjj0sc": 1, "z4i2u": 1, "14v2d1c": 1, "13g88hu": 1, "1jla8il": 1, "44t8s7": 1, "1i9nnki": 1, "1ab4ndu": 1, "9s74l7": 1, "vmfr50": 1, "96pnhp": 1, "3nak3s": 1, "1ee48rr": 1, "ch2gub": 1, "ple3w9": 1, "j5t1l0": 1, "1qphjur": 1, "dwpcvx": 1, "kr717v": 1, "57piot": 1, "jynu2j": 1, "17rgezo": 1, "j76se8": 1, "qf9jf6": 1, "1y9adm9": 1, "b3i5g": 1, "19mmceb": 1, "1sqsrjb": 1, "a5061z": 1, "3dftsz": 1, "uwxcxd": 1, "uq9rzl": 1, "sbn5kp": 1, "1ymz7k5": 1, "hpztza": 1, "n8n04b": 1, "19xs1gp": 1, "16xir0w": 1, "1acanip": 1, "1nyjugx": 1, "1s59j3v": 1, "1kw7qy9": 1, "1yd93cc": 1, "zucdd5": 1, "y1nr35": 1, "1ciiaaq": 1, "1u65t4x": 1, "1xwsaqh": 1, "xftb7k": 1, "1chgjz9": 1, "12b8z26": 1, "180y9c": 1, "1imay4w": 1, "e67y6b": 1, "11d0835": 1, "pj4zwf": 1, "1wp9ym9": 1, "ved3al": 1, "7a5gcb": 1, "1fdpjzo": 1, "q8931n": 1, "1pek9xd": 1, "s0qn0b": 1, "1m6zuv0": 1, "y8h32i": 1, "2m2lqo": 1, "ytxvsd": 1, "1s5fm8f": 1, "1cszv98": 1, "1rpnqo0": 1, "cjspny": 1, "19ghu0": 1, "4vk2gx": 1, "tk49w9": 1, "1ychval": 1, "1xud76n": 1, "374g8w": 1, "374h1f": 1, "374htu": 1, "3745l1": 1, "3746dg": 1, "114dk0h": 1, "yj06id": 1, "879syv": 1, "1vk72g1": 1, "1uuq0t7": 1, "12dzuva": 1, "lve4p5": 1, "1tl3jz6": 1, "1at78c1": 1, "1wf1at": 1, "1i0xekm": 1, "kqxq86": 1, "kdwilr": 1, "h47heh": 1, "cwgage": 1, "nz0n2a": 1, "rpstpf": 1, "1lcgrk": 1, "1ad7fsl": 1, "u18ni3": 1, "pb1f2i": 1, "1tvdex2": 1, "1tra6cl": 1, "1i9j6jq": 1, "13rrv7q": 1, "bpx1pt": 1, "jdhssx": 1, "1kqa4xd": 1, "1fj55x9": 1, "skfbmi": 1, "18h1q2f": 1, "1bozgcv": 1, "1yzj78q": 1, "1mw0kza": 1, "190cz7p": 1, "11kfd6j": 1, "ov0sor": 1, "1lkuwss": 1, "ijmtgy": 1, "1nj75od": 1, "12kombi": 1, "1y3jqpl": 1, "rzteg": 1, "zcik1h": 1, "mwxqb0": 1, "19xjrw6": 1, "17pst4f": 1, "1pt7iij": 1, "11tbjx7": 1, "1mwtptu": 1, "t4640y": 1, "1x3lvhb": 1, "16jqq6a": 1, "1inw5l6": 1, "es195e": 1, "cb5vt": 1, "122jwsq": 1, "luua4a": 1, "978yys": 1, "zklk65": 1, "10tv77i": 1, "pq1yxa": 1, "1keuuxc": 1, "2nl5cv": 1, "1zrk1s": 1, "ggbt7n": 1, "1th069j": 1, "1ko9ipi": 1, "73y057": 1, "1m88ij4": 1, "1sulxjw": 1, "wp5w0q": 1, "1tl1kxg": 1, "irmse5": 1, "hukbpc": 1, "375qb7": 1, "4xgzih": 1, "33qnih": 1, "yj8o96": 1, "yispxj": 1, "v0o841": 1, "fucceu": 1, "yiruf3": 1, "3hmcq": 1, "3hmhw": 1, "1rgm5ug": 1, "375bu2": 1, "310hzu": 1, "yiz9lt": 1, "vbiczb": 1, "375bqm": 1, "lwv8l1": 1, "375ge1": 1, "a4cg2k": 1, "17t88hb": 1, "nq4uni": 1, "1l482h7": 1, "38iz6c": 1, "2ppp4z": 1, "2xt32b": 1, "bcp23i": 1, "yj8qk3": 1, "1rrjxfy": 1, "375n8q": 1, "1vw2d02": 1, "3hm9a": 1, "2xcgpb": 1, "yiyo33": 1, "lqnd23": 1, "yj50uq": 1, "yivrh5": 1, "1i4o7l5": 1, "pkohp0": 1, "1c2tv84": 1, "vc0jii": 1, "11rm2w8": 1, "11rnvji": 1, "swkns7": 1};/*VOZOK-FIM*/
+/*VOZOK-INI*/var VOZOK = {"hup8oy": 1, "10tq9gp": 1, "aj79w7": 1, "jy3q3k": 1, "1wnhhoa": 1, "bm53en": 1, "7sgprh": 1, "kl8a1u": 1, "hzi18t": 1, "up8knm": 1, "1d7exxv": 1, "1a4fhf9": 1, "aspjj9": 1, "4s7bkl": 1, "1ch2ld8": 1, "1lultct": 1, "1eg4j4f": 1, "1hsjucq": 1, "12pcsiu": 1, "i43wxc": 1, "1sijxk1": 1, "2e5rzg": 1, "1xxkkz3": 1, "1lfmh4n": 1, "1pg74ly": 1, "1a1vojv": 1, "u30pf0": 1, "cbbef": 1, "crvgj4": 1, "1n8qr2c": 1, "3x0ygz": 1, "6cl2vo": 1, "mvk3c3": 1, "t41hv9": 1, "lzj52f": 1, "1izfug4": 1, "dkwrkl": 1, "1u092bf": 1, "8272as": 1, "1h33k6p": 1, "1171tm0": 1, "sb9stz": 1, "1ac70al": 1, "4d30ij": 1, "1q54noc": 1, "1949rnw": 1, "13l8ioi": 1, "19z76ul": 1, "1bfhxsp": 1, "t4q39n": 1, "15cngpl": 1, "ic6oug": 1, "1wdac8q": 1, "1b8wx3y": 1, "11t8ns8": 1, "vmy2v0": 1, "1dmd5eh": 1, "2n8hxu": 1, "1kxtd05": 1, "yokbid": 1, "1drzbq0": 1, "14amrvz": 1, "nwyg2i": 1, "c2oigw": 1, "t9j8bs": 1, "2k97kz": 1, "1nj1rvv": 1, "10mn1hd": 1, "1vvtlvo": 1, "1k1x3mc": 1, "1n9xz4y": 1, "17li7lc": 1, "yrhmpl": 1, "1s46y2b": 1, "rf7jma": 1, "10iaoav": 1, "me8fjc": 1, "1tbi951": 1, "1acqtsp": 1, "g2y223": 1, "182246b": 1, "t0nsd4": 1, "1vshqdt": 1, "xjok0o": 1, "959f8l": 1, "xi7yzd": 1, "6p1eq6": 1, "1o0vy7s": 1, "nn8h9k": 1, "hf4roi": 1, "15p3hif": 1, "17u0hi8": 1, "z19s6a": 1, "blp7wt": 1, "1q515mv": 1, "4qgd7m": 1, "15j548s": 1, "nzliat": 1, "1gjv127": 1, "15ny0e6": 1, "c0fo0y": 1, "1cjzf5d": 1, "1wltmk4": 1, "13xaxzf": 1, "doaa55": 1, "cbblga": 1, "15qirw6": 1, "uwlpsc": 1, "6wt7kl": 1, "168vvo7": 1, "z93v39": 1, "ku1apm": 1, "1r85tch": 1, "1gpoxli": 1, "154naz4": 1, "j696u1": 1, "1i04mw6": 1, "wx39c9": 1, "gv6z71": 1, "1agpzgg": 1, "3m1409": 1, "1fchd28": 1, "1ykwayp": 1, "sy5bvx": 1, "xkh1mg": 1, "87skc7": 1, "gmwevi": 1, "12gdkqx": 1, "1c5year": 1, "14k8zse": 1, "1tc81is": 1, "ud6ntt": 1, "1xfjxkl": 1, "1pj6o45": 1, "13bdp1m": 1, "zektnl": 1, "84d5ba": 1, "1bq7ng5": 1, "6kwjzk": 1, "1myzkmf": 1, "13grueh": 1, "1y41ild": 1, "145aan9": 1, "19icea1": 1, "1995ul7": 1, "h5q4ra": 1, "norvom": 1, "1ierpq2": 1, "1r8yzvs": 1, "1prwydz": 1, "1jgzw4j": 1, "1e0gwhf": 1, "rimpim": 1, "ddw1un": 1, "1d1a4mf": 1, "1dvqnlu": 1, "ae5xlu": 1, "pu77fu": 1, "41xs29": 1, "191u7rt": 1, "188ctas": 1, "uxljei": 1, "1qyi785": 1, "rx3qyl": 1, "1xfu2r9": 1, "m3fz6q": 1, "v8pfav": 1, "1gn0ol9": 1, "1qu6968": 1, "ovh15q": 1, "hn3cdp": 1, "w3c4o": 1, "15zdd63": 1, "1efqlqq": 1, "gjsawd": 1, "1b5hw9y": 1, "1ff7qy7": 1, "sswfki": 1, "1rno7q4": 1, "66kro2": 1, "8h3zod": 1, "7j6jla": 1, "18f239t": 1, "2z94ce": 1, "hs949s": 1, "160h3rh": 1, "jlegpp": 1, "13iq5yi": 1, "7v866v": 1, "16wghag": 1, "a99fxj": 1, "1m7dbu7": 1, "rdr9r7": 1, "ick0lw": 1, "1rasf42": 1, "q236ye": 1, "15hwiq0": 1, "j03anr": 1, "1mbuzbr": 1, "1xc79v6": 1, "ib6erl": 1, "1jtrgaz": 1, "olt6yi": 1, "kfxilv": 1, "9833y5": 1, "yqifb1": 1, "c7rp09": 1, "lur5eb": 1, "1lwdyyj": 1, "k0zskn": 1, "1pffno0": 1, "vqf9ft": 1, "7twb75": 1, "ha4c4y": 1, "1687n97": 1, "1htlv8o": 1, "1arw52w": 1, "wjkrlx": 1, "1c8diit": 1, "1q7lqa0": 1, "1jr5fqn": 1, "td01bm": 1, "faqjtu": 1, "13gqyb0": 1, "1878u17": 1, "ytbncd": 1, "6w8i23": 1, "ejwvfg": 1, "3pwg46": 1, "jk516i": 1, "2d69ug": 1, "1l2bz4u": 1, "1051izd": 1, "17edgnn": 1, "183xv2l": 1, "s69mtb": 1, "1k5w7n3": 1, "1vek3c0": 1, "10t5tht": 1, "1ioxpma": 1, "1fdl1td": 1, "u33b14": 1, "tqmvl4": 1, "1akbxoy": 1, "10oyez0": 1, "14wr3ue": 1, "5fl2q6": 1, "1gzn91v": 1, "1izhyeh": 1, "19zcgy": 1, "d02pkh": 1, "d6l8ic": 1, "112jzou": 1, "kaoxpc": 1, "1ew5d3b": 1, "1eihodk": 1, "1d9s73k": 1, "a764su": 1, "a29far": 1, "1kzifu4": 1, "1gxyh25": 1, "16q027g": 1, "h8g0mh": 1, "12ivp4v": 1, "1eit8hn": 1, "12lolqw": 1, "a9ubyd": 1, "e9kar9": 1, "1y3qfck": 1, "d4412q": 1, "1x4got": 1, "tw9jav": 1, "9o2hbb": 1, "10i0dtu": 1, "bx5si3": 1, "q7x6se": 1, "1kpfd4o": 1, "1ocv2vx": 1, "1ikdfmr": 1, "1cjcc5y": 1, "14ch563": 1, "aidjf6": 1, "1p9xb2u": 1, "16k0dfv": 1, "1lbec4r": 1, "2tx195": 1, "2pmzkr": 1, "199sf2y": 1, "2v3spb": 1, "lmtnfh": 1, "19y089f": 1, "wp51iy": 1, "1kem4sf": 1, "1jiktbk": 1, "179jksy": 1, "1j99i9a": 1, "m2hk1": 1, "wy7dae": 1, "1i6djyz": 1, "urkeo1": 1, "16t3842": 1, "1ntnzyb": 1, "l6cd2e": 1, "p8tfod": 1, "qp55ei": 1, "crfyd0": 1, "k862gs": 1, "1at4smq": 1, "m673c": 1, "hwiro3": 1, "15uheax": 1, "1ko9gq3": 1, "n1zo1f": 1, "ludng9": 1, "19xmqdb": 1, "2wk6f9": 1, "131y4yv": 1, "1gdzx8l": 1, "w5emvp": 1, "m2fqma": 1, "1t15dxy": 1, "2xbx7w": 1, "1ig3e1w": 1, "142j7u3": 1, "1rjpvcd": 1, "pyqgeh": 1, "2uezfa": 1, "1d485nt": 1, "w5olmn": 1, "1pdcaoo": 1, "5v84fe": 1, "1a9gcc5": 1, "bq0k2i": 1, "1k56yc9": 1, "1eri4e6": 1, "4lbza1": 1, "qh7pi4": 1, "18ws8bs": 1, "16714oi": 1, "2tvvsv": 1, "1fmg5wc": 1, "j4hgsp": 1, "12kccza": 1, "12a3ifd": 1, "1v0uz5b": 1, "1bokqor": 1, "4v68bs": 1, "1uxypr9": 1, "jykomn": 1, "1vby9s1": 1, "pcbbg2": 1, "z6n48o": 1, "1x7hjks": 1, "81ck1s": 1, "u9k63u": 1, "wbd6l8": 1, "zgzut9": 1, "jera9j": 1, "t5po13": 1, "16hwwfp": 1, "yrpqag": 1, "15nxeh8": 1, "1dm8vzo": 1, "xlnjhk": 1, "1xeydsy": 1, "bj3sgh": 1, "2uwmzv": 1, "yhssqw": 1, "dhnten": 1, "j6ny7w": 1, "1ux6y5u": 1, "123f7v2": 1, "1swvm7y": 1, "ja20zq": 1, "1p0jrmi": 1, "d9ipj0": 1, "ikvvu9": 1, "aqtk6p": 1, "1u955ti": 1, "13i0o59": 1, "g7uhn0": 1, "e244zp": 1, "1tncx8s": 1, "1kkn8i6": 1, "1whc1zv": 1, "xc0pt": 1, "wljzv0": 1, "17tfti4": 1, "km2xgd": 1, "1sx86v7": 1, "9b7aah": 1, "1y9dwph": 1, "1pmjrnc": 1, "9kmg14": 1, "jlrm13": 1, "1jolx2j": 1, "8cyma1": 1, "gprm2c": 1, "13w1920": 1, "bpm5oi": 1, "m80f4c": 1, "1c8qv5v": 1, "qqdxt6": 1, "6t23mp": 1, "1sctnod": 1, "1119gm5": 1, "j6drql": 1, "qivvmj": 1, "4d557g": 1, "1ph9lp6": 1, "1a18pu1": 1, "c4pqr5": 1, "cvdvky": 1, "1xvxvjh": 1, "k6zrec": 1, "ck59os": 1, "xwvmim": 1, "q06wku": 1, "16c16n1": 1, "17obqcf": 1, "1q0hcfw": 1, "678iwv": 1, "1gdj5p9": 1, "1hlcctd": 1, "1domzwo": 1, "bbhvus": 1, "1nezgfe": 1, "1xg7z0w": 1, "12hpk5v": 1, "1griig8": 1, "ozgjhi": 1, "17c89ze": 1, "4is7i5": 1, "1ypb1ty": 1, "37vhis": 1, "fvojrj": 1, "1n5xoud": 1, "1607g6x": 1, "1tk7pfs": 1, "1qj7tm6": 1, "1v4qqtw": 1, "wqxiw3": 1, "7jlzgf": 1, "zzukro": 1, "zwinm4": 1, "kut99q": 1, "1bh8fxk": 1, "1qbf5jt": 1, "1uxqod4": 1, "kh3wgx": 1, "b03wnf": 1, "1nf1pck": 1, "18anqi4": 1, "up0ih": 1, "1os5dxy": 1, "v31bb3": 1, "ch2o5o": 1, "7u1ikd": 1, "b8so4q": 1, "ykasfw": 1, "1j9v8dq": 1, "fbu5w1": 1, "14g75ud": 1, "1qzj40g": 1, "1nlbhq5": 1, "1ibx5vo": 1, "1t7sa7d": 1, "1h2ltpz": 1, "abzyvt": 1, "1iicd4r": 1, "1bm8vur": 1, "1bougql": 1, "1uwyivr": 1, "wdp02": 1, "1nu0ylo": 1, "g2rvrm": 1, "7ouokq": 1, "am3byv": 1, "17ds168": 1, "t60t02": 1, "g312s2": 1, "1osmduf": 1, "6orgy": 1, "pqwyvw": 1, "clc13g": 1, "f4791f": 1, "1p7dfr6": 1, "otofle": 1, "soclnr": 1, "15qyi67": 1, "mqbo1n": 1, "12cpy5u": 1, "ojkumz": 1, "1hl77ls": 1, "1r0z0n": 1, "7asiao": 1, "hiuz3h": 1, "1754v19": 1, "1r6ln88": 1, "1u9gika": 1, "jjj0sc": 1, "z4i2u": 1, "14v2d1c": 1, "13g88hu": 1, "1jla8il": 1, "44t8s7": 1, "1i9nnki": 1, "1ab4ndu": 1, "9s74l7": 1, "vmfr50": 1, "96pnhp": 1, "3nak3s": 1, "1ee48rr": 1, "ch2gub": 1, "ple3w9": 1, "j5t1l0": 1, "1qphjur": 1, "dwpcvx": 1, "kr717v": 1, "57piot": 1, "jynu2j": 1, "17rgezo": 1, "j76se8": 1, "qf9jf6": 1, "1y9adm9": 1, "b3i5g": 1, "19mmceb": 1, "1sqsrjb": 1, "a5061z": 1, "3dftsz": 1, "uwxcxd": 1, "uq9rzl": 1, "sbn5kp": 1, "1ymz7k5": 1, "hpztza": 1, "n8n04b": 1, "19xs1gp": 1, "16xir0w": 1, "1acanip": 1, "1nyjugx": 1, "1s59j3v": 1, "1kw7qy9": 1, "1yd93cc": 1, "zucdd5": 1, "y1nr35": 1, "1ciiaaq": 1, "1u65t4x": 1, "1xwsaqh": 1, "xftb7k": 1, "1chgjz9": 1, "12b8z26": 1, "180y9c": 1, "1imay4w": 1, "e67y6b": 1, "11d0835": 1, "pj4zwf": 1, "1wp9ym9": 1, "ved3al": 1, "7a5gcb": 1, "1fdpjzo": 1, "q8931n": 1, "1pek9xd": 1, "s0qn0b": 1, "1m6zuv0": 1, "y8h32i": 1, "2m2lqo": 1, "ytxvsd": 1, "1s5fm8f": 1, "1cszv98": 1, "1rpnqo0": 1, "cjspny": 1, "19ghu0": 1, "4vk2gx": 1, "tk49w9": 1, "1ychval": 1, "1xud76n": 1, "374g8w": 1, "374h1f": 1, "374htu": 1, "3745l1": 1, "3746dg": 1, "114dk0h": 1, "yj06id": 1, "879syv": 1, "1vk72g1": 1, "1uuq0t7": 1, "12dzuva": 1, "lve4p5": 1, "1tl3jz6": 1, "1at78c1": 1, "1wf1at": 1, "1i0xekm": 1, "kqxq86": 1, "kdwilr": 1, "h47heh": 1, "cwgage": 1, "nz0n2a": 1, "rpstpf": 1, "1lcgrk": 1, "1ad7fsl": 1, "u18ni3": 1, "pb1f2i": 1, "1tvdex2": 1, "1tra6cl": 1, "1i9j6jq": 1, "13rrv7q": 1, "bpx1pt": 1, "jdhssx": 1, "1kqa4xd": 1, "1fj55x9": 1, "skfbmi": 1, "18h1q2f": 1, "1bozgcv": 1, "1yzj78q": 1, "1mw0kza": 1, "190cz7p": 1, "11kfd6j": 1, "ov0sor": 1, "1lkuwss": 1, "ijmtgy": 1, "1nj75od": 1, "12kombi": 1, "1y3jqpl": 1, "rzteg": 1, "zcik1h": 1, "mwxqb0": 1, "19xjrw6": 1, "17pst4f": 1, "1pt7iij": 1, "11tbjx7": 1, "1mwtptu": 1, "t4640y": 1, "1x3lvhb": 1, "16jqq6a": 1, "1inw5l6": 1, "es195e": 1, "cb5vt": 1, "122jwsq": 1, "luua4a": 1, "978yys": 1, "zklk65": 1, "10tv77i": 1, "pq1yxa": 1, "1keuuxc": 1, "2nl5cv": 1, "1zrk1s": 1, "ggbt7n": 1, "1th069j": 1, "1ko9ipi": 1, "73y057": 1, "1m88ij4": 1, "1sulxjw": 1, "wp5w0q": 1, "1tl1kxg": 1, "irmse5": 1, "hukbpc": 1, "375qb7": 1, "4xgzih": 1, "33qnih": 1, "yj8o96": 1, "yispxj": 1, "v0o841": 1, "fucceu": 1, "yiruf3": 1, "3hmcq": 1, "3hmhw": 1, "1rgm5ug": 1, "375bu2": 1, "310hzu": 1, "yiz9lt": 1, "vbiczb": 1, "375bqm": 1, "lwv8l1": 1, "375ge1": 1, "a4cg2k": 1, "17t88hb": 1, "nq4uni": 1, "1l482h7": 1, "38iz6c": 1, "2ppp4z": 1, "2xt32b": 1, "bcp23i": 1, "yj8qk3": 1, "1rrjxfy": 1, "375n8q": 1, "1vw2d02": 1, "3hm9a": 1, "2xcgpb": 1, "yiyo33": 1, "lqnd23": 1, "yj50uq": 1, "yivrh5": 1, "1i4o7l5": 1, "pkohp0": 1, "1c2tv84": 1, "vc0jii": 1, "11rm2w8": 1, "11rnvji": 1, "swkns7": 1};/*VOZOK-FIM*/
 
 /* ============================================================
    OS DADOS DO CADERNO — tudo em JSON puro, num bloco marcado.
@@ -2370,24 +2397,24 @@ var ORDEM2 = {
      ABAIXO: FÉRIAS · CRIANÇA · ESCOLA · NOTÍCIA · INFORMAÇÃO · ATENÇÃO")
      ⚠️ Na grade não há acento: NOTICIA, não notícia. ---------- */
 var CACA = {
- grade: [["J", "O", "R", "N", "A", "L", "X", "B", "Q"],
-         ["K", "F", "O", "T", "O", "Z", "M", "P", "D"],
-         ["N", "O", "T", "I", "C", "I", "A", "Q", "H"],
-         ["R", "A", "D", "I", "O", "V", "S", "E", "T"],
-         ["C", "B", "L", "P", "G", "W", "Y", "E", "U"]],
+ grade: [["J", "O", "R", "N", "A", "L", "X"],
+         ["K", "F", "O", "T", "O", "Z", "M"],
+         ["N", "O", "T", "I", "C", "I", "A"],
+         ["R", "A", "D", "I", "O", "V", "S"],
+         ["C", "B", "L", "P", "G", "W", "Y"]],
  pal: {ee1: {pista: "vende na banca e traz as notícias", a: [0, 0], z: [0, 5]},
        ee2: {pista: "a imagem que a legenda explica", a: [1, 1], z: [1, 4]},
        ee3: {pista: "conta o que aconteceu de verdade", a: [2, 0], z: [2, 6]},
        ee4: {pista: "o aparelho em que a gente só escuta", a: [3, 0], z: [3, 4]}}
 };
 var CACA2 = {
- grade: [["M", "A", "N", "C", "H", "E", "T", "E", "X"],
-         ["P", "L", "E", "G", "E", "N", "D", "A", "K"],
-         ["F", "E", "R", "I", "A", "S", "Z", "T", "Q"],
-         ["B", "U", "D", "A", "T", "A", "W", "O", "N"],
-         ["C", "Y", "H", "M", "S", "P", "L", "I", "G"]],
- pal: {ff1: {pista: "o título grande da notícia", a: [0, 0], z: [0, 7]},
-       ff2: {pista: "a frase que fica embaixo da foto", a: [1, 1], z: [1, 7]},
+ grade: [["L", "E", "G", "E", "N", "D", "A"],
+         ["P", "T", "I", "T", "U", "L", "O"],
+         ["F", "E", "R", "I", "A", "S", "Z"],
+         ["B", "U", "D", "A", "T", "A", "W"],
+         ["C", "Y", "H", "M", "S", "P", "L"]],
+ pal: {ff1: {pista: "a frase que fica embaixo da foto", a: [0, 0], z: [0, 6]},
+       ff2: {pista: "outro nome da manchete, o que vem lá no alto", a: [1, 1], z: [1, 6]},
        ff3: {pista: "o tempo em que a escola para e a criança descansa", a: [2, 0], z: [2, 5]},
        ff4: {pista: "o dia em que o jornal saiu", a: [3, 3], z: [3, 6]}}
 };
@@ -2398,9 +2425,7 @@ var CRZD = {
  gg2: {p: "FOTO", d: "a imagem da notícia"},
  gg3: {p: "RADIO", d: "o aparelho em que a gente só escuta"},
  gg4: {p: "TITULO", d: "o nome que vem lá no alto"},
- gg5: {p: "DATA", d: "o dia em que o jornal saiu"},
- gg6: {p: "LEGENDA", d: "a frase que fica embaixo da foto"},
- gg7: {p: "NOTICIA", d: "o texto que conta o que aconteceu"}
+ gg5: {p: "DATA", d: "o dia em que o jornal saiu"}
 };
 
 /* ---------- 31 e 32 — PARA QUE SERVE E DO QUE TRATA (d38: "A FINALIDADE DO
@@ -2565,7 +2590,7 @@ var NOMES = [
  "Ponha as cenas na ordem: a ave",
  "Ponha as cenas na ordem: o golfinho",
  "Caça-palavras do jornal",
- "Caça-palavras da manchete",
+ "Caça-palavras das partes",
  "A cruzadinha da notícia",
  "Para que serve este texto",
  "Qual é o assunto",
@@ -2588,7 +2613,18 @@ var CURRICULO = {
  "componente": "Língua Portuguesa",
  "rede": "Currículo da Educação Básica do Sistema Municipal de Ensino de Blumenau",
  "documento": "_curriculo/blumenau.txt",
- "conceitos": [],
+ "conceitos": [
+  "fotolegenda em notícia",
+  "manchete",
+  "lide em notícia",
+  "álbum de fotos digital noticioso",
+  "notícia curta para público infantil",
+  "condição de produção",
+  "conteúdo temático",
+  "formatação e diagramação",
+  "curadoria de fotos",
+  "temporalidade (ordem de acontecimento dos fatos)"
+ ],
  "fora_do_curriculo": [],
  "degrau": 10,
  "evidencia": [
@@ -2607,9 +2643,9 @@ var CURRICULO = {
   "TRÊS BLOCOS NÃO VÊM DE FOLHA NENHUMA, e estão declarados: a TEMPORALIDADE (folhas 25-27), o ONDE A NOTÍCIA CIRCULA (22-24) e o ÁLBUM DE FOTOS (folha 34). Os três o currículo pede e nenhuma das quarenta folhas cobre.",
   "AS QUATRO PERGUNTAS DO LIDE VÊM DA FOLHA DE PAPEL, em palavras de criança: 'O que aconteceu? Quando? Onde? Com quem?' (d04). Três outras folhas (d09, d14, d17) repetem as mesmas — e é isso que prova que são O conteúdo deste degrau. O caderno nunca diz 'lide' antes da folha 35.",
   "O CONCEITO VEM POR ÚLTIMO: os nomes MANCHETE, LEGENDA, FOTO e LIDE só se juntam no cartaz da folha 35, e mesmo lá ao lado das palavras de criança.",
-  "O `conceitos` está VAZIO de propósito, e isso NÃO é 'passou': o portão 0b9 dirá NÃO MEDI a sexta pergunta. O PDF da rede traz cabeçalho por ano apenas em Ciências, Geografia e História; Português vem em faixas, e medir no documento inteiro aprovaria conteúdo de outro ano. Prefiro dizer que não medi a medir errado.",
   "AS FOTOS DE PESSOAS REAIS DAS FOLHAS d24, d34, d17, d22 e d11 FICARAM DE FORA: são fotografias de gente identificável publicadas em material de terceiros. Desenho a traço e clip-art de folha de atividade entram; retrato de pessoa real, não. (O beija-flor da d29 é foto, mas de um passarinho.)",
-  "METADE DAS FIGURAS NÃO TEM FUNDO TRANSPARENTE, e é de propósito: o degrau é a FOTOLEGENDA, e foto tem moldura. Um cachorro recortado flutuando não é uma foto de jornal; o mesmo cachorro dentro do seu retângulo, com céu e grama, é."
+  "METADE DAS FIGURAS NÃO TEM FUNDO TRANSPARENTE, e é de propósito: o degrau é a FOTOLEGENDA, e foto tem moldura. Um cachorro recortado flutuando não é uma foto de jornal; o mesmo cachorro dentro do seu retângulo, com céu e grama, é.",
+  "⭐ A SEXTA PERGUNTA DO PEDAGOGO (o CONTEÚDO cabe no ano?) FOI CONFERIDA À MÃO, e a conferência inteira está em `conceitos_conferencia`, aqui mesmo: o quadro do 2º ano, CAMPO DA VIDA PÚBLICA, nomeia dez conceitos, o caderno ensina esses dez e mais nenhum. O portão 0b9 não consegue medir isso em Português porque o PDF da rede não traz cabeçalho por ano nesse componente (traz em Ciências, Geografia e História — rodei os quatro para confirmar). Crivo à mão não é medida: está escrito para o professor poder refazer."
  ],
  "objetivos": [
   {
@@ -2751,7 +2787,30 @@ var CURRICULO = {
    "objeto": "Escrita compartilhada",
    "habilidade": "HABILIDADE: \"Planejar, produzir, revisar e reescrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
   }
- ]
+ ],
+ "conceitos_conferencia": {
+  "como": "CONFERÊNCIA À MÃO, porque o portão 0b9 NÃO CONSEGUE medir esta pergunta em Português — e isso foi verificado, não suposto: o `bloco_do_ano()` do `_qa/pedagogo_curriculo.py` procura um cabeçalho 'LINGUA PORTUGUESA – ANOS INICIAIS – 2o ANO' no `_curriculo/blumenau.txt` e ele NÃO EXISTE (existe em Ciências, Geografia e História, e eu rodei os quatro para confirmar). Medir no documento inteiro aprovaria conteúdo de outro ano, que foi exatamente o defeito da Coroa dos Cinco Reinos. Então a conferência foi feita OLHANDO o quadro, e está escrita aqui para o professor poder refazer.",
+  "onde": "_curriculo/blumenau.txt, linhas 3190 a 3231 — as TRÊS linhas do quadro '2º ANO / CAMPO DA VIDA PÚBLICA' (Leitura/escuta, Escrita e Análise linguística/semiótica).",
+  "o_que_o_quadro_nomeia": [
+   "Gêneros do discurso: fotolegenda em notícia, manchete e lide em notícia, álbum de fotos digital noticioso e notícia (curta para público infantil), entre outros.",
+   "Conceitos/conteúdos (leitura e escrita): condição de produção (quem promove o discurso, para quem, com que propósito comunicativo, em que locais circulam esses discursos), conteúdo temático (de que trata o texto-enunciado).",
+   "Conceitos/conteúdos (análise linguística/semiótica): formatação e diagramação; curadoria de fotos; temporalidade (ordem de acontecimento dos fatos)."
+  ],
+  "onde_cada_um_é_ensinado": {
+   "fotolegenda em notícia": "folhas 1 a 6 — a foto fala, e a legenda que a explica",
+   "manchete": "folhas 7 a 9, e a folha 33 (a manchete é da criança)",
+   "lide em notícia": "folhas 10 a 12 — o quê, com quem, onde, quando",
+   "álbum de fotos digital noticioso": "folha 34",
+   "notícia curta para público infantil": "folhas 10 a 15, 25, 31 e 32 — todas as notícias do caderno têm três linhas ou menos",
+   "condição de produção": "folhas 22 a 24 — quem escreve, para quem, por onde circula",
+   "conteúdo temático": "folha 32 — 'qual é o assunto dela?'",
+   "formatação e diagramação": "folhas 19 a 21 — as partes do jornal e o lugar de cada uma na página",
+   "curadoria de fotos": "folhas 4, 5, 8 e 9 — qual foto serve para esta legenda, e qual manchete serve para esta foto",
+   "temporalidade (ordem de acontecimento dos fatos)": "folhas 25 a 27"
+  },
+  "nada_fora_do_ano": "Conferi o caminho inverso também: TODO conceito que o caderno ensina está na lista acima. Ele não usa 'parágrafo', 'subtítulo', 'olho', 'infográfico', 'imparcialidade' nem 'sensacionalismo' — todos apareceram nas folhas colhidas (d07, d09, d19, d26) e todos são de anos maiores. A palavra LIDE só aparece no cartaz da folha 35; até lá as quatro perguntas são feitas com as palavras da folha de papel d04: 'O que aconteceu? Quando? Onde? Com quem?'.",
+  "o_que_isto_NÃO_é": "NÃO é medida automática. É crivo meu, e crivo é do Claude, não é portão. Se o PDF da rede um dia ganhar cabeçalho por ano em Português, o 0b9 passa a medir isto sozinho e esta conferência vira redundante — o que é o desejado."
+ }
 };
 /*</dossie-dados>*/
 
@@ -2983,5 +3042,5 @@ function novaFolha(){
   </div>
 </div>
 <!--</dossie-html>-->
-<script src="folhas.js?v=80e3fab4ff"></script>
+<script src="folhas.js?v=31c0aabd25"></script>
 </body></html>

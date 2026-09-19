@@ -1467,10 +1467,17 @@ function cacaPalavras(d, pi, C, rotulo){
 /* PEÇA — PEGAR E SOLTAR NUM ALVO COMPARTILHADO (_ponto2, f1): a peça é o item,
    o alvo se declara no nível da página como `alvo-<chave>`, e a resposta do item
    é ">chave". As duas portas: puxar OU tocar-tocar. */
-function pegaSolta(d, pi, alvosHTML, itens, chaveAlvo, falaItem, cls){
+function pegaSolta(d, pi, alvosHTML, itens, chaveAlvo, falaItem, cls, alvosEmOrdem){
   var alvos = [], marcada = null;
   var linha = el("div", "figalvos");
-  baralha(alvosHTML.slice(0)).forEach(function(A){
+  /* ⚠️ OS ALVOS SAEM EMBARALHADOS — MENOS NA FOLHA DE ORDEM (19/set/2026).
+     Embaralhar o alvo é o certo quando ele é uma FIGURA: senão a ordem da lista
+     entrega a resposta. Mas numa folha que pede "ponha as cenas na ORDEM" o
+     alvo É a ordem — e a tela mostrava 2º, 5º, 1º, 4º, 3º. A criança não tem
+     como pôr em ordem uma fila que já está fora de ordem: a folha deixa de
+     fazer o que o comando impresso manda. Quem passa `alvosEmOrdem` é a folha
+     de ordem, e só ela. */
+  (alvosEmOrdem ? alvosHTML.slice(0) : baralha(alvosHTML.slice(0))).forEach(function(A){
     var a = el("div", "figalvo gr");
     a.innerHTML = A.html;
     a.setAttribute("data-alvo", "1");
@@ -1630,14 +1637,14 @@ function montaSoltaFig(d, pi, DS, chave, falaAlvo, falaItem){
     baralha(lista.slice(0)).map(function(k){ return {k: k, alvo: k, rot: DS[k].rot, aria: DS[k].rot}; }),
     chave, function(I){ return falaItem + I.k; }, "frase");
 }
-function montaSoltaTxt(d, pi, DS, chave, falaAlvo, falaItem){
+function montaSoltaTxt(d, pi, DS, chave, falaAlvo, falaItem, emOrdem){
   var lista = ST.folha["p" + pi];
   pegaSolta(d, pi,
     lista.map(function(k){ return {k: k, html: '<span class="cartex">' + DS[k].pos + "</span>",
                                    fala: falaAlvo + k}; }),
     baralha(lista.slice(0)).map(function(k){ return {k: k, alvo: k, rot: DS[k].v || DS[k].rot,
                                                      aria: DS[k].v || DS[k].rot}; }),
-    chave, function(I){ return falaItem + I.k; }, "frase");
+    chave, function(I){ return falaItem + I.k; }, "frase", emOrdem);
 }
 function f5(d, pi){
   faixa(d, pi, NOMES[pi - 1]);
@@ -1657,12 +1664,12 @@ function f20(d, pi){
 function f26(d, pi){
   faixa(d, pi, NOMES[pi - 1]);
   enunciado(d, pi, "As cenas da notícia do passarinho estão embaralhadas. Ponha cada uma no lugar dela.", "p" + pi + "enun");
-  montaSoltaTxt(d, pi, ORDEM1, "or1", "pos_", "cena_");
+  montaSoltaTxt(d, pi, ORDEM1, "or1", "pos_", "cena_", true);
 }
 function f27(d, pi){
   faixa(d, pi, NOMES[pi - 1]);
   enunciado(d, pi, "Agora a notícia do golfinho. Da primeira cena à última.", "p" + pi + "enun");
-  montaSoltaTxt(d, pi, ORDEM2, "or2", "pos_", "cena_");
+  montaSoltaTxt(d, pi, ORDEM2, "or2", "pos_", "cena_", true);
 }
 function f34(d, pi){
   faixa(d, pi, NOMES[pi - 1]);
@@ -1715,7 +1722,7 @@ function f18(d, pi){ gavetas(d, pi, "gB", "Agora separe: isto conta algo que <b>
 
 /* ---------- 28 e 29 — OS CAÇA-PALAVRAS ---------- */
 function f28(d, pi){ faixa(d, pi, NOMES[pi - 1]); enunciado(d, pi, "Ache na grade a palavra que a pista descreve: toque na <b>primeira</b> letra e depois na <b>última</b>.", "p" + pi + "enun"); cacaPalavras(d, pi, CACA, "Ache o que"); }
-function f29(d, pi){ faixa(d, pi, NOMES[pi - 1]); enunciado(d, pi, "Agora as palavras do jornal. Na grade não há acento: procure NOTICIA, não notícia.", "p" + pi + "enun"); cacaPalavras(d, pi, CACA2, "Ache o que"); }
+function f29(d, pi){ faixa(d, pi, NOMES[pi - 1]); enunciado(d, pi, "Agora as partes do jornal. Na grade não há acento: procure TITULO, não título.", "p" + pi + "enun"); cacaPalavras(d, pi, CACA2, "Ache o que"); }
 
 /* ---------- 30 — A CRUZADINHA ---------- */
 function f30(d, pi){ faixa(d, pi, NOMES[pi - 1]); enunciado(d, pi, "Toque numa pista, escute e escreva a palavra.", "p" + pi + "enun"); cruzadinha(d, pi, CRZD, "crz_"); }
