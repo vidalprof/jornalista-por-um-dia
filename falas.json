@@ -1,0 +1,3507 @@
+[
+ {
+  "id": "nt_hup8oy",
+  "texto": "Toque primeiro na primeira letra da palavra.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10tq9gp",
+  "texto": "Jornalista por um Dia. Trinta e cinco folhas sobre a notícia do jornal: a foto e a sua legenda, a manchete e as quatro perguntas que toda notícia responde. Escreva o seu nome ali embaixo e toque em Começar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_aj79w7",
+  "texto": "Foto: a imagem do que aconteceu. Por exemplo, a imagem do golfinho no mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jy3q3k",
+  "texto": "Legenda: a frase que explica a foto. Por exemplo, O golfinho pula perto da areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1wnhhoa",
+  "texto": "Lide: o começo, que diz o quê, quem, quando e onde. Por exemplo, Ontem, na praia, um golfinho apareceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bm53en",
+  "texto": "Manchete: o título curto, lá no alto. Por exemplo, Golfinho aparece na praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7sgprh",
+  "texto": "Choveu muito e a ave caiu no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kl8a1u",
+  "texto": "O homem achou ela toda molhada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hzi18t",
+  "texto": "Ele levou a ave para a sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_up8knm",
+  "texto": "Barnabé comeu mel e ficou forte.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1d7exxv",
+  "texto": "Hoje ele voa no jardim todo dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1a4fhf9",
+  "texto": "O golfinho apareceu perto da areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_aspjj9",
+  "texto": "As pessoas correram para ver.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4s7bkl",
+  "texto": "Um pescador deu a ele um apelido.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ch2ld8",
+  "texto": "O jornal mandou um fotógrafo à praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1lultct",
+  "texto": "A notícia saiu no jornal no dia seguinte.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1eg4j4f",
+  "texto": "Isso mesmo! O QUE aconteceu? Um golfinho apareceu na praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1hsjucq",
+  "texto": "Muito bem! O QUE aconteceu? Um homem achou um passarinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12pcsiu",
+  "texto": "Você acertou! O QUE aconteceu? As férias estão chegando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_i43wxc",
+  "texto": "Boa! O QUE aconteceu? Um cachorro ficou perdido.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1sijxk1",
+  "texto": "Exatamente! O QUE vai acontecer? Os alunos vão plantar uma muda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2e5rzg",
+  "texto": "Isso mesmo! COM QUEM aconteceu? Com um animal do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xxkkz3",
+  "texto": "Muito bem! COM QUEM aconteceu? Com uma ave pequenina.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1lfmh4n",
+  "texto": "Você acertou! COM QUEM aconteceu? Com os alunos da escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pg74ly",
+  "texto": "Boa! COM QUEM aconteceu? Com um bichinho de quatro patas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1a1vojv",
+  "texto": "Exatamente! COM QUEM vai acontecer? Com a turma do segundo ano.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_u30pf0",
+  "texto": "Isso mesmo! ONDE aconteceu? Na beira do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_cbbef",
+  "texto": "Muito bem! QUANDO aconteceu? Há poucos dias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_crvgj4",
+  "texto": "Você acertou! QUANDO vai acontecer? No dia seguinte a hoje.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1n8qr2c",
+  "texto": "Boa! ONDE aconteceu? Numa praça do bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3x0ygz",
+  "texto": "Exatamente! ONDE vai acontecer? No pátio da escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6cl2vo",
+  "texto": "Muito bem! As palavras eram golfinho, crianças, pescador.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_mvk3c3",
+  "texto": "Muito bem! As palavras eram sala, jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t41hv9",
+  "texto": "Isso mesmo! Quem chegou bem perto da areia? Foi o golfinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_lzj52f",
+  "texto": "Muito bem! O homem achou a ave logo depois da chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1izfug4",
+  "texto": "Você acertou! Hoje o passarinho come mel todos os dias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_dkwrkl",
+  "texto": "Boa! As crianças correram para ver o golfinho pular.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1u092bf",
+  "texto": "Exatamente! O pescador deu ao golfinho o apelido de Tião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_8272as",
+  "texto": "Isso mesmo! APELIDO: Tião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1h33k6p",
+  "texto": "Muito bem! COR: cinza.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1171tm0",
+  "texto": "Você acertou! ONDE VIVE: no mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_sb9stz",
+  "texto": "Boa! O QUE COME: peixe.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ac70al",
+  "texto": "Exatamente! TAMANHO: dois metros.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4d30ij",
+  "texto": "É isso aí! QUEM DEU O APELIDO: um pescador.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1q54noc",
+  "texto": "Isso mesmo! Chuva forte alaga o bairro. É manchete — curta e lá do alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1949rnw",
+  "texto": "Muito bem! A menina sopra a vela do bolo. É legenda — ela explica a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13l8ioi",
+  "texto": "Você acertou! Escola ganha uma horta nova. É manchete — curta e lá do alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19z76ul",
+  "texto": "Boa! O cachorro dorme na grama do parque. É legenda — ela explica a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bfhxsp",
+  "texto": "Exatamente! Time da cidade vence o jogo. É manchete — curta e lá do alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t4q39n",
+  "texto": "É isso aí! As três amigas leem no chão da sala. É legenda — ela explica a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15cngpl",
+  "texto": "Isso mesmo! Feira do livro começa na escola. É manchete — curta e lá do alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ic6oug",
+  "texto": "Muito bem! O jornaleiro mostra o jornal do dia. É legenda — ela explica a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1wdac8q",
+  "texto": "Isso mesmo! Um golfinho apareceu na praia ontem. É notícia — conta o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1b8wx3y",
+  "texto": "Muito bem! Venha à festa junina no sábado. É convite — chama você.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_11t8ns8",
+  "texto": "Você acertou! A escola plantou trinta árvores. É notícia — conta o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_vmy2v0",
+  "texto": "Boa! Espero você no meu aniversário. É convite — chama você.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1dmd5eh",
+  "texto": "Exatamente! O passarinho voltou a voar hoje. É notícia — conta o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2n8hxu",
+  "texto": "É isso aí! Participe da feira do livro na terça. É convite — chama você.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kxtd05",
+  "texto": "Isso mesmo! Choveu forte na cidade inteira ontem. É notícia — conta o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yokbid",
+  "texto": "Muito bem! Venha ver a peça de teatro na quinta. É convite — chama você.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1drzbq0",
+  "texto": "Isso mesmo! Manchete é o título grande da notícia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_14amrvz",
+  "texto": "Muito bem! Legenda é a frase que fica embaixo da foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_nwyg2i",
+  "texto": "Você acertou! Foto é a imagem do que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_c2oigw",
+  "texto": "Boa! Data é o dia em que o jornal saiu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t9j8bs",
+  "texto": "Exatamente! Lide é o começo, que diz o quê e quem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2k97kz",
+  "texto": "Isso mesmo! O que está acontecendo nesta foto? Um cachorro descansa na grama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nj1rvv",
+  "texto": "Muito bem! E o que está acontecendo nesta? Uma menina ganha um bolo de festa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10mn1hd",
+  "texto": "Você acertou! E nesta, o que está acontecendo? Três crianças leem livros no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1vvtlvo",
+  "texto": "Boa! E aqui, o que está acontecendo? Dois irmãos estão chorando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1k1x3mc",
+  "texto": "Exatamente! E nesta foto? Um menino almoça à mesa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1n9xz4y",
+  "texto": "É isso aí! E nesta última? Um homem mostra o jornal e grita.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17li7lc",
+  "texto": "Isso mesmo! No alto da página: manchete.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yrhmpl",
+  "texto": "Muito bem! Logo embaixo da foto: legenda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1s46y2b",
+  "texto": "Você acertou! No meio da página: foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_rf7jma",
+  "texto": "Boa! No cantinho de cima: data.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10iaoav",
+  "texto": "Exatamente! Na primeira linha do texto: lide.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_me8fjc",
+  "texto": "É isso aí! No pé da página: nome do jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tbi951",
+  "texto": "Isso mesmo! São manchete, foto, legenda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1acqtsp",
+  "texto": "Muito bem! São notícia, tirinha, anúncio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_g2y223",
+  "texto": "Você acertou! São frase curta, letras grandes, chama a atenção.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_182246b",
+  "texto": "Boa! São explica a foto, fica embaixo dela, é curtinha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t0nsd4",
+  "texto": "Isso mesmo! Onde você pode ver uma notícia? Na televisão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1vshqdt",
+  "texto": "Muito bem! E onde mais aparece uma notícia? No jornal de papel.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xjok0o",
+  "texto": "Você acertou! E onde mais ainda? No rádio do carro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_959f8l",
+  "texto": "Boa! E a notícia também aparece onde? Na internet.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xi7yzd",
+  "texto": "Exatamente! E onde mais? Na revista.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6p1eq6",
+  "texto": "Isso mesmo! Quem escreve a notícia do jornal? O jornalista.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1o0vy7s",
+  "texto": "Muito bem! Existe jornal feito para criança? Sim, existe.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_nn8h9k",
+  "texto": "Você acertou! Para que serve uma notícia? Para contar o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hf4roi",
+  "texto": "Boa! Quem tira a foto da notícia? O fotógrafo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15p3hif",
+  "texto": "Exatamente! Para quem o jornal escreve? Para quem quer saber das coisas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17u0hi8",
+  "texto": "Isso mesmo! São televisão, rádio, jornal, internet.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_z19s6a",
+  "texto": "Muito bem! São a praia, o golfinho, as crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_blp7wt",
+  "texto": "Você acertou! São a chuva, o homem, o jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1q515mv",
+  "texto": "Boa! São as crianças, os pais, os professores.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4qgd7m",
+  "texto": "Isso mesmo! Na notícia do passarinho, o que aconteceu primeiro? Choveu forte na cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15j548s",
+  "texto": "Muito bem! E na notícia do golfinho, o que veio primeiro? O golfinho chegou perto da areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_nzliat",
+  "texto": "Você acertou! E numa festa de aniversário, o que vem primeiro? Alguém faz o bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gjv127",
+  "texto": "Boa! Na notícia do cachorro perdido, o que veio primeiro? O cachorro saiu de casa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15ny0e6",
+  "texto": "Exatamente! E numa árvore que vai ser plantada, o que vem primeiro? Alguém cava o buraco.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_c0fo0y",
+  "texto": "Isso mesmo! 1º: Choveu muito e a ave caiu no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1cjzf5d",
+  "texto": "Muito bem! 2º: O homem achou ela toda molhada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1wltmk4",
+  "texto": "Você acertou! 3º: Ele levou a ave para a sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13xaxzf",
+  "texto": "Boa! 4º: Barnabé comeu mel e ficou forte.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_doaa55",
+  "texto": "Exatamente! 5º: Hoje ele voa no jardim todo dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_cbblga",
+  "texto": "Isso mesmo! 1º: O golfinho apareceu perto da areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15qirw6",
+  "texto": "Muito bem! 2º: As pessoas correram para ver.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_uwlpsc",
+  "texto": "Você acertou! 3º: Um pescador deu a ele um apelido.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6wt7kl",
+  "texto": "Boa! 4º: O jornal mandou um fotógrafo à praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_168vvo7",
+  "texto": "Exatamente! 5º: A notícia saiu no jornal no dia seguinte.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_z93v39",
+  "texto": "Isso mesmo! Achou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ku1apm",
+  "texto": "Muito bem! Achou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1r85tch",
+  "texto": "Você acertou! Achou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gpoxli",
+  "texto": "Boa! Achou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_154naz4",
+  "texto": "Isso mesmo! São crianças, escorregador, grama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j696u1",
+  "texto": "Muito bem! São bolo, balões, presente.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1i04mw6",
+  "texto": "Você acertou! São livros, crianças, chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wx39c9",
+  "texto": "Boa! São jornal, chapéu, homem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1uk8wgi",
+  "texto": "Isso mesmo! O papel que traz as notícias: Jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1t2ueov",
+  "texto": "Muito bem! A imagem da notícia: Foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3m1409",
+  "texto": "Você acertou! O aparelho em que a gente só escuta: Radio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1fchd28",
+  "texto": "Boa! O nome que vem lá no alto: Titulo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ykwayp",
+  "texto": "Exatamente! O dia em que o jornal saiu: Data.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_w3su9r",
+  "texto": "É isso aí! A frase que fica embaixo da foto: Legenda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bwik0s",
+  "texto": "Isso mesmo! O texto que conta o que aconteceu: Noticia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_sy5bvx",
+  "texto": "Isso mesmo! Para que serve este texto? Para avisar as pessoas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xkh1mg",
+  "texto": "Muito bem! Para que serve este texto? Para chamar as pessoas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_87skc7",
+  "texto": "Você acertou! Para que serve este texto? Para contar o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_gmwevi",
+  "texto": "Boa! Para que serve este texto? Para dar uma novidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12gdkqx",
+  "texto": "Exatamente! Para que serve este texto? Para avisar de um perigo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1c5year",
+  "texto": "Isso mesmo! Qual é o assunto dela? Um animal do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_14k8zse",
+  "texto": "Muito bem! Qual é o assunto dela? O descanso das crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tc81is",
+  "texto": "Você acertou! Qual é o assunto dela? Um bichinho que foi cuidado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ud6ntt",
+  "texto": "Boa! Qual é o assunto dela? Um bicho de estimação.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xfjxkl",
+  "texto": "Exatamente! Qual é o assunto dela? O cuidado com a natureza.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pj6o45",
+  "texto": "Isso mesmo! A manchete é sua e combina com a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13bdp1m",
+  "texto": "Muito bem! A manchete é sua e combina com a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zektnl",
+  "texto": "Você acertou! A manchete é sua e combina com a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_84d5ba",
+  "texto": "Boa! A manchete é sua e combina com a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bq7ng5",
+  "texto": "Isso mesmo! O jornaleiro: Ele grita a notícia do dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6kwjzk",
+  "texto": "Muito bem! O menino à mesa: O almoço novo agradou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1myzkmf",
+  "texto": "Você acertou! A menina com a jarra: O suco foi servido a todos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13grueh",
+  "texto": "Boa! Os dois irmãos: Os irmãos se perderam na festa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1y41ild",
+  "texto": "Exatamente! O beija-flor: A ave voltou ao jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_145aan9",
+  "texto": "Isso mesmo! Passarinho é salvo depois da chuva. É a manchete — o título curto lá do alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19icea1",
+  "texto": "Muito bem! O homem dá mel para a ave comer. É a legenda — a frase que explica a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1995ul7",
+  "texto": "Você acertou! A imagem do passarinho na flor. É a foto — a imagem do que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_h5q4ra",
+  "texto": "Boa! Hoje, no jardim da escola, uma ave voltou a voar. É o lide — o começo, que diz o quê, quem, quando e onde.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_norvom",
+  "texto": "Exatamente! Feira do livro começa na escola. É a manchete — o título curto lá do alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ierpq2",
+  "texto": "É isso aí! Amanhã, no pátio, a turma vai plantar uma muda. É o lide — o começo, que diz o quê, quem, quando e onde.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1r8yzvs",
+  "texto": "Isso mesmo! O menino à mesa: O menino almoça peixe com arroz.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1prwydz",
+  "texto": "Muito bem! A menina com a jarra: A menina serve suco na sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1jgzw4j",
+  "texto": "Você acertou! O cachorro na grama: O cachorro descansa no parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1e0gwhf",
+  "texto": "Boa! As três crianças: As crianças leem juntas no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_rimpim",
+  "texto": "Exatamente! O passarinho na flor: O passarinho bebe na flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ddw1un",
+  "texto": "Isso mesmo! Qual legenda combina com esta foto? Os irmãos estão chorando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1d1a4mf",
+  "texto": "Muito bem! E qual legenda combina com esta? Os amigos brincam no parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1dvqnlu",
+  "texto": "Você acertou! E com esta aqui? O golfinho pula perto da praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ae5xlu",
+  "texto": "Boa! E qual combina com esta? O menino almoça na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pu77fu",
+  "texto": "Exatamente! E com esta? As crianças leem juntas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_41xs29",
+  "texto": "É isso aí! E com esta última? O homem anuncia a notícia do dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_191u7rt",
+  "texto": "Isso mesmo! O golfinho: Ele pula no mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_188ctas",
+  "texto": "Muito bem! O beija-flor: Ele bebe na flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_uxljei",
+  "texto": "Você acertou! O jornaleiro: Ele vende o jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1qyi785",
+  "texto": "Boa! A menina da festa: Ela ganha o bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_rx3qyl",
+  "texto": "Exatamente! As três crianças: Elas leem no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xfu2r9",
+  "texto": "É isso aí! O menino à mesa: Ele almoça na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_m3fz6q",
+  "texto": "Isso mesmo! O golfinho pula perto da praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_v8pfav",
+  "texto": "Muito bem! O cachorro descansa na grama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gn0ol9",
+  "texto": "Você acertou! A menina serve suco.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1qu6968",
+  "texto": "Boa! A menina ganha um bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ovh15q",
+  "texto": "Exatamente! O homem vende o jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hn3cdp",
+  "texto": "Isso mesmo! Uma manchete é uma frase curta de jornal. Qual destas é uma manchete? Arte motiva e incentiva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_w3c4o",
+  "texto": "Muito bem! E qual destas é uma manchete? Escolas do Japão incentivam a pesquisa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15zdd63",
+  "texto": "Você acertou! E agora, qual delas é a manchete? Grandes shows comemoram o aniversário da cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1efqlqq",
+  "texto": "Boa! E qual destas é manchete? Chuva forte alaga o centro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_gjsawd",
+  "texto": "Exatamente! E nesta última, qual é a manchete? Escola ganha uma horta nova.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1b5hw9y",
+  "texto": "Isso mesmo! Qual manchete combina com esta foto? Crianças leem mais na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ff7qy7",
+  "texto": "Muito bem! E qual manchete combina com esta? Parque novo alegra o bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_sswfki",
+  "texto": "Você acertou! E com esta foto, qual manchete combina? Passarinho é salvo depois da chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1rno7q4",
+  "texto": "Boa! E qual manchete serve para esta? Cachorro perdido é achado no parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_66kro2",
+  "texto": "Exatamente! E para esta? Festa de aniversário reúne a turma.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_8h3zod",
+  "texto": "É isso aí! E para esta última? Escola serve almoço novo aos alunos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7j6jla",
+  "texto": "Isso mesmo! O golfinho no mar: Golfinho visita a praia da cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_18f239t",
+  "texto": "Muito bem! O homem com o jornal: Jornaleiro vende jornal na esquina.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2z94ce",
+  "texto": "Você acertou! O menino almoçando: Escola serve almoço novo aos alunos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hs949s",
+  "texto": "Boa! A menina da festa: Festa de aniversário reúne a turma.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_160h3rh",
+  "texto": "Exatamente! As três crianças lendo: Alunos leem mais depois da feira do livro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jlegpp",
+  "texto": "Vende na banca e traz as notícias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13iq5yi",
+  "texto": "A imagem que a legenda explica.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7v866v",
+  "texto": "Conta o que aconteceu de verdade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16wghag",
+  "texto": "O aparelho em que a gente só escuta.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_aidjf6",
+  "texto": "O título grande da notícia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_a99fxj",
+  "texto": "A frase que fica embaixo da foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_rdr9r7",
+  "texto": "O tempo em que a escola para e a criança descansa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ick0lw",
+  "texto": "O dia em que o jornal saiu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1rasf42",
+  "texto": "o papel que traz as notícias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_q236ye",
+  "texto": "a imagem da notícia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15hwiq0",
+  "texto": "o nome que vem lá no alto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1scibu7",
+  "texto": "o texto que conta o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j03anr",
+  "texto": "Olhe a foto de novo, com calma. A resposta está nela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1mbuzbr",
+  "texto": "Leia as opções em voz alta. Só uma combina com o que você viu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xc79v6",
+  "texto": "Pergunte para você mesmo: isto é mesmo coisa de jornal?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ib6erl",
+  "texto": "Volte à notícia e leia devagar. Ela conta tudo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1jtrgaz",
+  "texto": "Quem é gente ou bicho nesta notícia? Leia linha por linha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_olt6yi",
+  "texto": "Procure os lugares: onde cada coisa aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kfxilv",
+  "texto": "Conte as casinhas e diga a palavra devagar, letra por letra.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_9833y5",
+  "texto": "Leia o nome da linha e pense no que o jornal contou do golfinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yqifb1",
+  "texto": "Manchete não tem ponto no fim e é bem curta. Legenda é uma frase inteira sobre a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_c7rp09",
+  "texto": "Pergunte: isto já aconteceu, ou ainda vai acontecer e está chamando você?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_lur5eb",
+  "texto": "Pense numa página de jornal aberta na sua frente: onde fica isso?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1lwdyyj",
+  "texto": "Pense numa página de jornal: o que fica lá no alto, bem grande?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_k0zskn",
+  "texto": "Pense no jornal que você já viu. Isto estava dentro dele?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pffno0",
+  "texto": "Pense em como a notícia chega até a sua casa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_vqf9ft",
+  "texto": "Conte a notícia do começo. O que tinha de acontecer antes disto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7twb75",
+  "texto": "Vá uma por uma e pergunte: isto aparece MESMO na foto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ha4c4y",
+  "texto": "Conte as casinhas e lembre da página de jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1687n97",
+  "texto": "Manchete é curta. Diga em voz alta o que a foto mostra e guarde só a palavra mais importante.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1htlv8o",
+  "texto": "Leia a legenda e pergunte: em qual foto isso está acontecendo?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1arw52w",
+  "texto": "Olhe o exemplo que já está em cada linha do cartaz e compare com este.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wjkrlx",
+  "texto": "Olhe a foto e imagine quem contaria isso para alguém que não a viu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1c8diit",
+  "texto": "A manchete é curta e chama. Qual delas cabe no que a foto mostra?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1q7lqa0",
+  "texto": "Chuva forte alaga o bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1jr5fqn",
+  "texto": "A menina sopra a vela do bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_td01bm",
+  "texto": "Escola ganha uma horta nova.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_faqjtu",
+  "texto": "O cachorro dorme na grama do parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13gqyb0",
+  "texto": "Time da cidade vence o jogo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1878u17",
+  "texto": "As três amigas leem no chão da sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ytbncd",
+  "texto": "Feira do livro começa na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6w8i23",
+  "texto": "O jornaleiro mostra o jornal do dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ejwvfg",
+  "texto": "Um golfinho apareceu na praia ontem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3pwg46",
+  "texto": "Venha à festa junina no sábado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jk516i",
+  "texto": "A escola plantou trinta árvores.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2d69ug",
+  "texto": "Espero você no meu aniversário.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1l2bz4u",
+  "texto": "O passarinho voltou a voar hoje.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1051izd",
+  "texto": "Participe da feira do livro na terça.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17edgnn",
+  "texto": "Choveu forte na cidade inteira ontem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_183xv2l",
+  "texto": "Venha ver a peça de teatro na quinta.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_s69mtb",
+  "texto": "Escreva a palavra usando o teclado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1k5w7n3",
+  "texto": "Passarinho é salvo depois da chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1vek3c0",
+  "texto": "O homem dá mel para a ave comer.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10t5tht",
+  "texto": "A imagem do passarinho na flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ioxpma",
+  "texto": "Hoje, no jardim da escola, uma ave voltou a voar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1fdl1td",
+  "texto": "Amanhã, no pátio, a turma vai plantar uma muda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_u33b14",
+  "texto": "Foto: o menino à mesa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_tqmvl4",
+  "texto": "Foto: a menina com a jarra.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1akbxoy",
+  "texto": "Foto: o cachorro na grama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10oyez0",
+  "texto": "Foto: as três crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_14wr3ue",
+  "texto": "Foto: o passarinho na flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_5fl2q6",
+  "texto": "Foto: o golfinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gzn91v",
+  "texto": "Foto: o beija-flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1izhyeh",
+  "texto": "Foto: o jornaleiro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19zcgy",
+  "texto": "Foto: a menina da festa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_d02pkh",
+  "texto": "Foto: o golfinho no mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_d6l8ic",
+  "texto": "Foto: o homem com o jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_112jzou",
+  "texto": "Foto: o menino almoçando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kaoxpc",
+  "texto": "Foto: as três crianças lendo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ew5d3b",
+  "texto": "Foto: os dois irmãos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1eihodk",
+  "texto": "Você chegou ao fim! Agora um desafio para levar: procure um jornal de verdade, em papel ou na tela, e ache nele as quatro coisas que você aprendeu. Cadê a manchete? Cadê a foto? Cadê a legenda? E o começo que diz o quê, quem, quando e onde?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1d9s73k",
+  "texto": "Folha pronta! Muito bem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_a764su",
+  "texto": "Gaveta da legenda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_a29far",
+  "texto": "Gaveta da manchete.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kzifu4",
+  "texto": "Gaveta do convite.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gxyh25",
+  "texto": "Gaveta da notícia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16q027g",
+  "texto": "O… pula perto da praia. Olhe a foto: quem é que pula?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_h8g0mh",
+  "texto": "O… descansa na grama. Olhe a foto: quem é que descansa?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12ivp4v",
+  "texto": "A menina serve…. Olhe a foto: o que é que ela serve na jarra?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1eit8hn",
+  "texto": "A menina ganha um…. Olhe a foto: o que está na mesa, com velas em cima?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12lolqw",
+  "texto": "O homem vende o…. Olhe a foto: o que é que ele segura na mão?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_a9ubyd",
+  "texto": "Quem chegou bem perto da areia? Foi o…. Volte à notícia da praia e leia de novo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_e9kar9",
+  "texto": "O homem achou a ave logo depois da…. Volte à notícia do passarinho: o que tinha acabado de cair?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1y3qfck",
+  "texto": "Hoje o passarinho come… todos os dias. É doce e as abelhas fazem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_d4412q",
+  "texto": "As crianças correram para ver o golfinho…. Volte à notícia da praia: o que ele fazia na água?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1x4got",
+  "texto": "O pescador deu ao golfinho o… de Tião. É o nome carinhoso que se dá a alguém.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_tw9jav",
+  "texto": "O menino almoça peixe com arroz.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_9o2hbb",
+  "texto": "A menina serve suco na sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10i0dtu",
+  "texto": "O cachorro descansa no parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bx5si3",
+  "texto": "As crianças leem juntas no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_q7x6se",
+  "texto": "O passarinho bebe na flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kpfd4o",
+  "texto": "Golfinho visita a praia da cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ocv2vx",
+  "texto": "Jornaleiro vende jornal na esquina.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ikdfmr",
+  "texto": "Escola serve almoço novo aos alunos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1cjcc5y",
+  "texto": "Festa de aniversário reúne a turma.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_14ch563",
+  "texto": "Alunos leem mais depois da feira do livro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1p9xb2u",
+  "texto": "Manchete.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16k0dfv",
+  "texto": "Legenda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1lbec4r",
+  "texto": "A imagem do que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2tx195",
+  "texto": "Foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2pmzkr",
+  "texto": "Data.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_199sf2y",
+  "texto": "O começo, que diz o quê e quem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2v3spb",
+  "texto": "Lide.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_lmtnfh",
+  "texto": "Toque numa peça do lado esquerdo e depois na do lado direito.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19y089f",
+  "texto": "Televisão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wp51iy",
+  "texto": "Rádio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kem4sf",
+  "texto": "Jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1jiktbk",
+  "texto": "Internet.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_179jksy",
+  "texto": "Chuveiro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1j99i9a",
+  "texto": "Travesseiro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_m2hk1",
+  "texto": "A praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wy7dae",
+  "texto": "O golfinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1i6djyz",
+  "texto": "As crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_urkeo1",
+  "texto": "Um avião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16t3842",
+  "texto": "A neve.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ntnzyb",
+  "texto": "A chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_l6cd2e",
+  "texto": "O homem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_p8tfod",
+  "texto": "O jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_qp55ei",
+  "texto": "O mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_crfyd0",
+  "texto": "A bicicleta.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_k862gs",
+  "texto": "Os pais.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1at4smq",
+  "texto": "Os professores.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_m673c",
+  "texto": "As pedras.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hwiro3",
+  "texto": "As cadeiras.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15uheax",
+  "texto": "Crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ko9gq3",
+  "texto": "Escorregador.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_n1zo1f",
+  "texto": "Grama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ludng9",
+  "texto": "Avião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19xmqdb",
+  "texto": "Elefante.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2wk6f9",
+  "texto": "Bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_131y4yv",
+  "texto": "Balões.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gdzx8l",
+  "texto": "Presente.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_w5emvp",
+  "texto": "Bicicleta.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_m2fqma",
+  "texto": "Cachorro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1t15dxy",
+  "texto": "Livros.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2xbx7w",
+  "texto": "Chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ig3e1w",
+  "texto": "Piscina.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_142j7u3",
+  "texto": "Guarda-chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1rjpvcd",
+  "texto": "Chapéu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pyqgeh",
+  "texto": "Homem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2uezfa",
+  "texto": "Gato.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1d485nt",
+  "texto": "Receita de bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_w5olmn",
+  "texto": "Adivinha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pdcaoo",
+  "texto": "Notícia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_5v84fe",
+  "texto": "Tirinha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1a9gcc5",
+  "texto": "Anúncio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bq0k2i",
+  "texto": "Dever de casa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1k56yc9",
+  "texto": "Frase curta.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1eri4e6",
+  "texto": "Letras grandes.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4lbza1",
+  "texto": "Chama a atenção.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_qh7pi4",
+  "texto": "Dez parágrafos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_18ws8bs",
+  "texto": "Modo de preparo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16714oi",
+  "texto": "Explica a foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2tvvsv",
+  "texto": "Fica embaixo dela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1fmg5wc",
+  "texto": "É curtinha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j4hgsp",
+  "texto": "Conta uma história de fada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12kccza",
+  "texto": "Ensina a somar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12a3ifd",
+  "texto": "Não deixe água parada no quintal. Assim o mosquito não nasce.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1v0uz5b",
+  "texto": "Venha à festa junina da escola, no dia dez, às nove horas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bokqor",
+  "texto": "O time da cidade venceu o jogo de domingo por três gols.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4v68bs",
+  "texto": "Ontem, o time da escola ganhou o campeonato do bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1uxypr9",
+  "texto": "Cuidado! O piso do corredor está molhado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jykomn",
+  "texto": "A notícia fala do golfinho que chegou perto da areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1vby9s1",
+  "texto": "A notícia fala das férias, que começam na sexta-feira.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pcbbg2",
+  "texto": "A notícia fala da ave salva por um homem depois da chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_z6n48o",
+  "texto": "A notícia fala do cachorro perdido que voltou para casa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1x7hjks",
+  "texto": "A notícia fala da árvore que a turma vai plantar no pátio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_81ck1s",
+  "texto": "Na semana passada, um golfinho chegou bem perto da areia, no Rio de Janeiro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_u9k63u",
+  "texto": "Depois da chuva forte, um homem encontrou um passarinho todo molhado no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wbd6l8",
+  "texto": "As aulas terminam na sexta-feira e a escola já está enfeitada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zgzut9",
+  "texto": "Ontem à tarde, o cachorro do bairro se perdeu e dormiu na pracinha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jera9j",
+  "texto": "Amanhã, a turma do segundo ano vai plantar uma árvore no pátio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t5po13",
+  "texto": "Amanhã de manhã, no pátio da escola, os alunos vão plantar uma árvore.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16hwwfp",
+  "texto": "Caderno novo! Escreva o seu nome e toque em Começar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yrpqag",
+  "texto": "Toda notícia responde quatro perguntas. A primeira é: o que aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15nxeh8",
+  "texto": "A segunda pergunta: com quem aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1dm8vzo",
+  "texto": "E as duas últimas: onde e quando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xlnjhk",
+  "texto": "Leia a notícia e toque nas palavras que dizem QUEM está na notícia. Depois confira.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xeydsy",
+  "texto": "Nesta outra, toque nas palavras que dizem ONDE a notícia aconteceu. Depois confira.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bj3sgh",
+  "texto": "Você leu as duas notícias. Escreva o que elas contaram.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2uwmzv",
+  "texto": "O jornal fez um quadro com o que se sabe do golfinho. Leve cada resposta para a linha dela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yhssqw",
+  "texto": "Leia a frase. Ela é o título lá do alto, ou a frase que fica embaixo da foto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_dhnten",
+  "texto": "Agora separe: isto conta algo que aconteceu, ou chama você para alguma coisa?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j6ny7w",
+  "texto": "Cada parte do jornal tem um nome. Ligue o nome ao que ele é.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ux6y5u",
+  "texto": "Uma foto de jornal conta uma coisa. Olhe bem e diga o que está acontecendo nela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_123f7v2",
+  "texto": "Esta é a folha de papel virando tela: puxe o nome da parte até o lugar dela na página.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1swvm7y",
+  "texto": "Marque só o que pertence mesmo ao jornal. Cuidado com os intrusos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ja20zq",
+  "texto": "A notícia sai do jornal e vai para muitos lugares. Onde você a encontra?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1p0jrmi",
+  "texto": "Alguém escreve a notícia, e escreve para alguém ler. Quem são eles?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_d9ipj0",
+  "texto": "A notícia viaja. Marque por onde ela chega até você.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ikvvu9",
+  "texto": "Na notícia, os fatos têm uma ordem. Toque no que aconteceu primeiro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_aqtk6p",
+  "texto": "As cenas da notícia do passarinho estão embaralhadas. Ponha cada uma no lugar dela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1u955ti",
+  "texto": "Agora a notícia do golfinho. Da primeira cena à última.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13i0o59",
+  "texto": "Ache na grade a palavra que a pista descreve: toque na primeira letra e depois na última.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1sf9nuv",
+  "texto": "Agora as palavras do jornal. Na grade não há acento: procure NOTICIA, não notícia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_e244zp",
+  "texto": "Olhe a foto com calma e marque tudo o que ela mostra. Depois toque em Conferir.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tncx8s",
+  "texto": "Toque numa pista, escute e escreva a palavra.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kkn8i6",
+  "texto": "Nem todo texto serve para a mesma coisa. Leia e diga para que serve.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1whc1zv",
+  "texto": "E agora o assunto: do que a notícia trata?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xc0pt",
+  "texto": "Agora o jornal é seu. Olhe a foto e escreva uma palavra que sirva de manchete.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wljzv0",
+  "texto": "O jornal fez um álbum com as fotos do dia. Dê a legenda certa a cada uma.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17tfti4",
+  "texto": "Você já fez tudo isto sem os nomes. Agora eles: leve cada exemplo para a linha dele.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_km2xgd",
+  "texto": "Toque numa foto e depois na legenda que fala dela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1sx86v7",
+  "texto": "A legenda é a frase que fica embaixo da foto e explica o que ela mostra. Qual combina?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_9b7aah",
+  "texto": "Puxe a legenda até a foto dela, ou toque numa e depois na outra.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1y9dwph",
+  "texto": "Agora a legenda é sua: escreva a palavra que falta. As casinhas dizem quantas letras tem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pmjrnc",
+  "texto": "A manchete é a frase curta que chama o leitor, lá no alto do jornal. Ache a manchete.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_9kmg14",
+  "texto": "Agora a foto é que manda: escolha a manchete que serve para ela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jlrm13",
+  "texto": "Agora a manchete: toque na foto e depois no título que o jornal daria a ela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1jolx2j",
+  "texto": "A árvore fica bem grande.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_8cyma1",
+  "texto": "A coruja dorme na árvore.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_gprm2c",
+  "texto": "A escola pegou fogo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13w1920",
+  "texto": "A irmã dá um presente ao irmão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bpm5oi",
+  "texto": "Alguém cava o buraco.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_m80f4c",
+  "texto": "Alguém faz o bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1c8qv5v",
+  "texto": "Amanhã não vou à aula, avise a professora.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_qqdxt6",
+  "texto": "A menina sopra a vela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6t23mp",
+  "texto": "Arte motiva e incentiva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1sctnod",
+  "texto": "As crianças cantam no coral.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1119gm5",
+  "texto": "As crianças correm no pátio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j6drql",
+  "texto": "As crianças leem juntas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_qivvmj",
+  "texto": "As crianças vão ao shopping.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4d557g",
+  "texto": "As férias estão chegando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ph9lp6",
+  "texto": "Bom dia, como vai você?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1a18pu1",
+  "texto": "Cachorro perdido é achado no parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_c4pqr5",
+  "texto": "Cachorro perdido volta para casa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_cvdvky",
+  "texto": "Choveu forte na cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xvxvjh",
+  "texto": "Chuva forte alaga a cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_k6zrec",
+  "texto": "Chuva forte alaga a escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ck59os",
+  "texto": "Chuva forte alaga o centro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xwvmim",
+  "texto": "Com a turma do segundo ano.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_q06wku",
+  "texto": "Com os alunos da escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16c16n1",
+  "texto": "Com os bombeiros da cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17obqcf",
+  "texto": "Com os médicos do hospital.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1q0hcfw",
+  "texto": "Com os médicos do posto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_678iwv",
+  "texto": "Com os passageiros do ônibus.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1gdj5p9",
+  "texto": "Com uma ave pequenina.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1hlcctd",
+  "texto": "Com um animal do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1domzwo",
+  "texto": "Com um bichinho de quatro patas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bbhvus",
+  "texto": "Com um cavalo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nezgfe",
+  "texto": "Com um jogador de futebol.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xg7z0w",
+  "texto": "Com um passarinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12hpk5v",
+  "texto": "Com um peixe.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1griig8",
+  "texto": "Com um peixe grande.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ozgjhi",
+  "texto": "Crianças leem mais na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17c89ze",
+  "texto": "Daqui a dez anos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4is7i5",
+  "texto": "Dentro de uma loja.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ypb1ty",
+  "texto": "Dentro de um avião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_37vhis",
+  "texto": "Dentro do supermercado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_fvojrj",
+  "texto": "Dois irmãos estão chorando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1n5xoud",
+  "texto": "Dois irmãos estão dormindo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1607g6x",
+  "texto": "Dois irmãos estão rindo à toa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tk7pfs",
+  "texto": "Era uma vez três porquinhos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1qj7tm6",
+  "texto": "Era uma vez uma princesa muito valente.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1v4qqtw",
+  "texto": "Escola ganha uma biblioteca.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wqxiw3",
+  "texto": "Escolas do Japão incentivam a pesquisa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7jlzgf",
+  "texto": "Faz muito tempo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zzukro",
+  "texto": "Feira de livros começa hoje.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zwinm4",
+  "texto": "Golfinho aparece na praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kut99q",
+  "texto": "Grandes shows comemoram o aniversário da cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bh8fxk",
+  "texto": "Há poucos dias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1qbf5jt",
+  "texto": "Irmãos passeiam felizes.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1uxqod4",
+  "texto": "Loja de brinquedos abre no centro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kh3wgx",
+  "texto": "Meu nome é Ana e eu tenho sete anos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_b03wnf",
+  "texto": "Misture tudo e leve ao forno.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nf1pck",
+  "texto": "Na areia da praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_18anqi4",
+  "texto": "Na beira do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_up0ih",
+  "texto": "Na caixa de brinquedos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1os5dxy",
+  "texto": "Na gaveta de meias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_v31bb3",
+  "texto": "Na internet.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ch2o5o",
+  "texto": "Na mochila vazia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7u1ikd",
+  "texto": "Não, nunca existiu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_b8so4q",
+  "texto": "Na revista.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ykasfw",
+  "texto": "Na televisão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1j9v8dq",
+  "texto": "No alto da serra.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_fbu5w1",
+  "texto": "No ano passado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_14g75ud",
+  "texto": "No caderno de matemática.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1qzj40g",
+  "texto": "No chinelo do vovô.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nlbhq5",
+  "texto": "No dia seguinte a hoje.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ibx5vo",
+  "texto": "No estojo de lápis.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1t7sa7d",
+  "texto": "No fundo do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1h2ltpz",
+  "texto": "No jornal de papel.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_abzyvt",
+  "texto": "No livro de histórias.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1iicd4r",
+  "texto": "No pátio da escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bm8vur",
+  "texto": "No pote de biscoito.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bougql",
+  "texto": "No rádio do carro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1uwyivr",
+  "texto": "Numa praça do bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wdp02",
+  "texto": "Num caderno de desenho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nu0ylo",
+  "texto": "Num livro de receitas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_g2rvrm",
+  "texto": "O cachorro saiu de casa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7ouokq",
+  "texto": "O cavalo corre no campo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_am3byv",
+  "texto": "O cuidado com a natureza.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17ds168",
+  "texto": "O dentista.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t60t02",
+  "texto": "O descanso das crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_g312s2",
+  "texto": "O dono achou ele.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1osmduf",
+  "texto": "O fotógrafo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_6orgy",
+  "texto": "O golfinho chegou perto da areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pqwyvw",
+  "texto": "O golfinho pula perto da praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_clc13g",
+  "texto": "O homem anuncia a notícia do dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_f4791f",
+  "texto": "O homem colhe laranjas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1p7dfr6",
+  "texto": "O homem pinta a parede.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_otofle",
+  "texto": "O jornal contou a história.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_soclnr",
+  "texto": "O jornal contou a novidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_15qyi67",
+  "texto": "O jornalista.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_mqbo1n",
+  "texto": "O menino almoça na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12cpy5u",
+  "texto": "O menino lava o carro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ojkumz",
+  "texto": "O menino pesca no rio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1hl77ls",
+  "texto": "O motorista.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1r0z0n",
+  "texto": "Ônibus novo chega ao bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7asiao",
+  "texto": "O padeiro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hiuz3h",
+  "texto": "O passarinho ganhou um nome.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1754v19",
+  "texto": "O passarinho voou no jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1r6ln88",
+  "texto": "O pescador deu o apelido.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1u9gika",
+  "texto": "O pintor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jjj0sc",
+  "texto": "O preço do pão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_z4i2u",
+  "texto": "Os alunos fazem as atividades escritas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_14v2d1c",
+  "texto": "Os alunos mudaram de sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13g88hu",
+  "texto": "Os alunos vão limpar a piscina.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1jla8il",
+  "texto": "Os alunos vão pintar o muro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_44t8s7",
+  "texto": "Os alunos vão plantar uma muda.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1i9nnki",
+  "texto": "Os amigos brincam no parque.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ab4ndu",
+  "texto": "Os irmãos estão chorando.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_9s74l7",
+  "texto": "Os passarinhos fazem ninho nela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_vmfr50",
+  "texto": "O trânsito da cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_96pnhp",
+  "texto": "Para avisar as pessoas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3nak3s",
+  "texto": "Para avisar de um perigo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ee48rr",
+  "texto": "Para chamar as pessoas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ch2gub",
+  "texto": "Para contar o que aconteceu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ple3w9",
+  "texto": "Para contar uma história de fada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j5t1l0",
+  "texto": "Para contar uma viagem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1qphjur",
+  "texto": "Para convidar para o cinema.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_dwpcvx",
+  "texto": "Para convidar para uma festa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kr717v",
+  "texto": "Para convidar para um passeio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_57piot",
+  "texto": "Para dar uma novidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jynu2j",
+  "texto": "Para dizer o que houve ontem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17rgezo",
+  "texto": "Para ensinar a dobrar papel.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_j76se8",
+  "texto": "Para ensinar a fazer bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_qf9jf6",
+  "texto": "Para ensinar a fazer pão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1y9adm9",
+  "texto": "Para ensinar uma dança.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_b3i5g",
+  "texto": "Para pedir silêncio na sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19mmceb",
+  "texto": "Para quem quer saber das coisas.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1sqsrjb",
+  "texto": "Para vender um sapato.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_a5061z",
+  "texto": "Parque novo alegra o bairro.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3dftsz",
+  "texto": "Praia fica cheia no domingo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_uwxcxd",
+  "texto": "Preço do pão sobe de novo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_uq9rzl",
+  "texto": "Primeiro bata os ovos com o açúcar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_sbn5kp",
+  "texto": "Quando os avós eram crianças.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ymz7k5",
+  "texto": "Querida Carina, estou com saudade de você.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hpztza",
+  "texto": "Sim, existe.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_n8n04b",
+  "texto": "Só para bebês de colo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19xs1gp",
+  "texto": "Só para os bebês.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16xir0w",
+  "texto": "Só para os professores.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1acanip",
+  "texto": "Time da cidade perde o jogo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nyjugx",
+  "texto": "Todos comem um pedaço.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1s59j3v",
+  "texto": "Três crianças comem pipoca.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kw7qy9",
+  "texto": "Três crianças jogam bola na rua.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1yd93cc",
+  "texto": "Três crianças leem livros no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zucdd5",
+  "texto": "Uma escola abriu na cidade.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_y1nr35",
+  "texto": "Uma festa de escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ciiaaq",
+  "texto": "Uma menina dorme na cama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1u65t4x",
+  "texto": "Uma menina ganha um bolo de festa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xwsaqh",
+  "texto": "Uma menina varre a cozinha.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_xftb7k",
+  "texto": "Um animal do mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1chgjz9",
+  "texto": "Uma obra na rua.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12b8z26",
+  "texto": "Uma prova de escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_180y9c",
+  "texto": "Uma receita de bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1imay4w",
+  "texto": "Uma viagem de avião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_e67y6b",
+  "texto": "Um bichinho que foi cuidado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_11d0835",
+  "texto": "Um bicho de estimação.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pj4zwf",
+  "texto": "Um cachorro aprendeu a nadar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1wp9ym9",
+  "texto": "Um cachorro descansa na grama.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ved3al",
+  "texto": "Um cachorro ficou perdido.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_7a5gcb",
+  "texto": "Um cachorro ganhou um prêmio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1fdpjzo",
+  "texto": "Um filme no cinema.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_q8931n",
+  "texto": "Um gato sobe no telhado.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pek9xd",
+  "texto": "Um golfinho apareceu na praia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_s0qn0b",
+  "texto": "Um homem achou um passarinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1m6zuv0",
+  "texto": "Um homem comprou uma gaiola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_y8h32i",
+  "texto": "Um homem dirige um ônibus.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2m2lqo",
+  "texto": "Um homem mostra o jornal e grita.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ytxvsd",
+  "texto": "Um homem perdeu o guarda-chuva.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1s5fm8f",
+  "texto": "Um homem varre a calçada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1cszv98",
+  "texto": "Um jogo de futebol.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1rpnqo0",
+  "texto": "Um jogo de videogame.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_cjspny",
+  "texto": "Um menino almoça à mesa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19ghu0",
+  "texto": "Um menino anda de bicicleta.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4vk2gx",
+  "texto": "Um menino escova os dentes.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_tk49w9",
+  "texto": "Um navio afundou no porto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ychval",
+  "texto": "Um peixe nada no rio.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1xud76n",
+  "texto": "Venha à festa junina da nossa escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_374g8w",
+  "texto": "1º.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_374h1f",
+  "texto": "2º.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_374htu",
+  "texto": "3º.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3745l1",
+  "texto": "4º.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3746dg",
+  "texto": "5º.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_114dk0h",
+  "texto": "APELIDO.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yj06id",
+  "texto": "COR.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_879syv",
+  "texto": "ONDE VIVE.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1vk72g1",
+  "texto": "O QUE COME.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1uuq0t7",
+  "texto": "TAMANHO.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12dzuva",
+  "texto": "QUEM DEU O APELIDO.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_lve4p5",
+  "texto": "No alto da página.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tl3jz6",
+  "texto": "Logo embaixo da foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1at78c1",
+  "texto": "No meio da página.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1wf1at",
+  "texto": "No cantinho de cima.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1i0xekm",
+  "texto": "Na primeira linha do texto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kqxq86",
+  "texto": "No pé da página.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_kdwilr",
+  "texto": "Escreva uma palavra que sirva de manchete para esta foto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_h47heh",
+  "texto": "O que está acontecendo nesta foto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_cwgage",
+  "texto": "E o que está acontecendo nesta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_nz0n2a",
+  "texto": "E nesta, o que está acontecendo?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_rpstpf",
+  "texto": "E aqui, o que está acontecendo?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1lcgrk",
+  "texto": "E nesta foto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ad7fsl",
+  "texto": "E nesta última?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_u18ni3",
+  "texto": "Na notícia do passarinho, o que aconteceu primeiro?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pb1f2i",
+  "texto": "E na notícia do golfinho, o que veio primeiro?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tvdex2",
+  "texto": "E numa festa de aniversário, o que vem primeiro?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tra6cl",
+  "texto": "Na notícia do cachorro perdido, o que veio primeiro?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1i9j6jq",
+  "texto": "E numa árvore que vai ser plantada, o que vem primeiro?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_13rrv7q",
+  "texto": "Qual legenda combina com esta foto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bpx1pt",
+  "texto": "E qual legenda combina com esta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_jdhssx",
+  "texto": "E com esta aqui?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1kqa4xd",
+  "texto": "E qual combina com esta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1fj55x9",
+  "texto": "E com esta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_skfbmi",
+  "texto": "E com esta última?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_18h1q2f",
+  "texto": "Uma manchete é uma frase curta de jornal. Qual destas é uma manchete?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1bozgcv",
+  "texto": "E qual destas é uma manchete?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1yzj78q",
+  "texto": "E agora, qual delas é a manchete?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1mw0kza",
+  "texto": "E qual destas é manchete?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_190cz7p",
+  "texto": "E nesta última, qual é a manchete?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_11kfd6j",
+  "texto": "Para que serve este texto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ov0sor",
+  "texto": "Qual manchete combina com esta foto?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1lkuwss",
+  "texto": "E qual manchete combina com esta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ijmtgy",
+  "texto": "E com esta foto, qual manchete combina?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1nj75od",
+  "texto": "E qual manchete serve para esta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_12kombi",
+  "texto": "E para esta?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1y3jqpl",
+  "texto": "E para esta última?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_rzteg",
+  "texto": "Qual é o assunto dela?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zcik1h",
+  "texto": "O QUE aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_mwxqb0",
+  "texto": "O QUE vai acontecer?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_19xjrw6",
+  "texto": "COM QUEM aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17pst4f",
+  "texto": "COM QUEM vai acontecer?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1pt7iij",
+  "texto": "ONDE aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_11tbjx7",
+  "texto": "QUANDO aconteceu?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1mwtptu",
+  "texto": "QUANDO vai acontecer?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_t4640y",
+  "texto": "ONDE vai acontecer?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1x3lvhb",
+  "texto": "Onde você pode ver uma notícia?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_16jqq6a",
+  "texto": "E onde mais aparece uma notícia?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1inw5l6",
+  "texto": "E onde mais ainda?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_es195e",
+  "texto": "E a notícia também aparece onde?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_cb5vt",
+  "texto": "E onde mais?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_122jwsq",
+  "texto": "Quem escreve a notícia do jornal?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_luua4a",
+  "texto": "Existe jornal feito para criança?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_978yys",
+  "texto": "Para que serve uma notícia?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_zklk65",
+  "texto": "Quem tira a foto da notícia?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_10tv77i",
+  "texto": "Para quem o jornal escreve?",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pq1yxa",
+  "texto": "Quase! Tente de novo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1keuuxc",
+  "texto": "Ele pula no mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2nl5cv",
+  "texto": "Ele bebe na flor.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1zrk1s",
+  "texto": "Ele vende o jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_ggbt7n",
+  "texto": "Ela ganha o bolo.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1th069j",
+  "texto": "Elas leem no chão.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1ko9ipi",
+  "texto": "Ele almoça na escola.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_73y057",
+  "texto": "Ele grita a notícia do dia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1m88ij4",
+  "texto": "O almoço novo agradou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1sulxjw",
+  "texto": "O suco foi servido a todos.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_wp5w0q",
+  "texto": "Os irmãos se perderam na festa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1tl1kxg",
+  "texto": "A ave voltou ao jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_irmse5",
+  "texto": "Nome do jornal.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_hukbpc",
+  "texto": "Primeiro toque numa peça ali embaixo. Depois toque na gaveta dela.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_375qb7",
+  "texto": "Um.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_4xgzih",
+  "texto": "golfinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_33qnih",
+  "texto": "para.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yj8o96",
+  "texto": "ver.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yispxj",
+  "texto": "ele.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_v0o841",
+  "texto": "pular.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_fucceu",
+  "texto": "pescador.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yiruf3",
+  "texto": "deu.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3hmcq",
+  "texto": "a.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3hmhw",
+  "texto": "o.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1rgm5ug",
+  "texto": "chegou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_375bu2",
+  "texto": "de.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_310hzu",
+  "texto": "Tião.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yiz9lt",
+  "texto": "bem.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_vbiczb",
+  "texto": "perto.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_375bqm",
+  "texto": "da.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_lwv8l1",
+  "texto": "areia.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_375ge1",
+  "texto": "As.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_a4cg2k",
+  "texto": "correram.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_17t88hb",
+  "texto": "Depois.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_nq4uni",
+  "texto": "levou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1l482h7",
+  "texto": "bichinho.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_38iz6c",
+  "texto": "sala.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2ppp4z",
+  "texto": "dele.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2xt32b",
+  "texto": "Hoje.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_bcp23i",
+  "texto": "Barnabé.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yj8qk3",
+  "texto": "voa.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1rrjxfy",
+  "texto": "chuva,.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_375n8q",
+  "texto": "no.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1vw2d02",
+  "texto": "jardim.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_3hm9a",
+  "texto": "e.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_2xcgpb",
+  "texto": "come.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yiyo33",
+  "texto": "mel.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_lqnd23",
+  "texto": "achou.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yj50uq",
+  "texto": "uma.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_yivrh5",
+  "texto": "ave.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1i4o7l5",
+  "texto": "molhada.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_pkohp0",
+  "texto": "Cinza.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_1c2tv84",
+  "texto": "No mar.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_vc0jii",
+  "texto": "Peixe.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_11rm2w8",
+  "texto": "Dois metros.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_11rnvji",
+  "texto": "Um pescador.",
+  "voz": "pt-BR-AntonioNeural"
+ },
+ {
+  "id": "nt_swkns7",
+  "texto": "Narração ligada!",
+  "voz": "pt-BR-AntonioNeural"
+ }
+]

@@ -1,0 +1,170 @@
+{
+ "ano": 2,
+ "componente": "Língua Portuguesa",
+ "rede": "Currículo da Educação Básica do Sistema Municipal de Ensino de Blumenau",
+ "documento": "_curriculo/blumenau.txt",
+ "conceitos": [],
+ "fora_do_curriculo": [],
+ "degrau": 10,
+ "evidencia": [
+  "Jogado do começo ao fim no navegador, item por item, antes de publicar.",
+  "Um jogador automático resolve cada item pela resposta declarada e confere se a folha fecha.",
+  "Leiaute medido em 6 tamanhos de tela, nas 35 folhas.",
+  "Toda tela é narrada com voz real, e cada opção de resposta tem o seu alto-falante.",
+  "As 35 folhas nasceram do crivo de 40 folhas de papel reais, em `_sequencias/POTE-NOT2.md`, lidas uma a uma.",
+  "As 10 figuras foram recortadas das próprias folhas colhidas (d03, d12, d13, d18, d29, d37 e d39); nenhuma é gerada por IA.",
+  "A habilidade citada no dossiê é conferida, palavra por palavra, contra o currículo da rede."
+ ],
+ "observacoes": [
+  "⚠️ A PALAVRA 'NOTÍCIA' PUXA O MUNDO ADULTO, e a colheita provou: quinze das quarenta folhas trazem notícia de jornal com assunto de jornal — a morte de Bin Laden, um homem que explode o quintal com gasolina, uma aluna condenada a indenizar um professor, estiagem e desastre ambiental. O GESTO delas entra (quem · o quê · quando · onde); o assunto, não. Sete folhas trazem o ANO impresso nelas (5º, 7º, 8º) e saem por isso, não por qualidade. O crivo inteiro está no `_sequencias/POTE-NOT2.md`.",
+  "⭐ O PRESENTE DA COLHEITA FOI A FOTOLEGENDA, que é a primeira coisa que a habilidade do 2º ano nomeia: cinco folhas (d13, d24, d36, d37, d39) e um pedaço de uma sexta (d11) trabalham FOTO + LEGENDA. É por aí que o caderno começa, porque uma criança de sete anos lê uma FOTO antes de ler uma notícia inteira.",
+  "AS NOTÍCIAS AQUI SÃO NOSSAS, escritas em vocabulário de sete anos a partir de duas que a colheita trouxe e que são de assunto de criança: o golfinho Tião (d12) e o beija-flor resgatado (d29). O fato é público; o texto impresso em cada folha é de alguém, e por isso foi reescrito.",
+  "TRÊS BLOCOS NÃO VÊM DE FOLHA NENHUMA, e estão declarados: a TEMPORALIDADE (folhas 25-27), o ONDE A NOTÍCIA CIRCULA (22-24) e o ÁLBUM DE FOTOS (folha 34). Os três o currículo pede e nenhuma das quarenta folhas cobre.",
+  "AS QUATRO PERGUNTAS DO LIDE VÊM DA FOLHA DE PAPEL, em palavras de criança: 'O que aconteceu? Quando? Onde? Com quem?' (d04). Três outras folhas (d09, d14, d17) repetem as mesmas — e é isso que prova que são O conteúdo deste degrau. O caderno nunca diz 'lide' antes da folha 35.",
+  "O CONCEITO VEM POR ÚLTIMO: os nomes MANCHETE, LEGENDA, FOTO e LIDE só se juntam no cartaz da folha 35, e mesmo lá ao lado das palavras de criança.",
+  "O `conceitos` está VAZIO de propósito, e isso NÃO é 'passou': o portão 0b9 dirá NÃO MEDI a sexta pergunta. O PDF da rede traz cabeçalho por ano apenas em Ciências, Geografia e História; Português vem em faixas, e medir no documento inteiro aprovaria conteúdo de outro ano. Prefiro dizer que não medi a medir errado.",
+  "AS FOTOS DE PESSOAS REAIS DAS FOLHAS d24, d34, d17, d22 e d11 FICARAM DE FORA: são fotografias de gente identificável publicadas em material de terceiros. Desenho a traço e clip-art de folha de atividade entram; retrato de pessoa real, não. (O beija-flor da d29 é foto, mas de um passarinho.)",
+  "METADE DAS FIGURAS NÃO TEM FUNDO TRANSPARENTE, e é de propósito: o degrau é a FOTOLEGENDA, e foto tem moldura. Um cachorro recortado flutuando não é uma foto de jornal; o mesmo cachorro dentro do seu retângulo, com céu e grama, é."
+ ],
+ "objetivos": [
+  {
+   "objetivo": "Ler uma foto: dizer o que está acontecendo nela",
+   "folhas": [
+    1,
+    2
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Reconhecer a legenda que explica a foto",
+   "folhas": [
+    3,
+    4
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Escrever a legenda de uma foto",
+   "folhas": [
+    5,
+    6
+   ],
+   "pratica": "Escrita (compartilhada e autônoma)",
+   "objeto": "Escrita compartilhada",
+   "habilidade": "HABILIDADE: \"Planejar, produzir, revisar e reescrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Reconhecer a manchete: a frase curta que chama",
+   "folhas": [
+    7,
+    8,
+    9
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Responder as perguntas do lide: o quê, quem, onde, quando",
+   "folhas": [
+    10,
+    11,
+    12
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Achar dentro da notícia quem está nela e onde ela aconteceu",
+   "folhas": [
+    13,
+    14,
+    15
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Organizar os dados da notícia num quadro, e separar manchete de legenda",
+   "folhas": [
+    16,
+    17,
+    18
+   ],
+   "pratica": "Análise linguística/semiótica (alfabetização)",
+   "objeto": "Forma de composição do texto",
+   "habilidade": "HABILIDADE: \"Identificar e reproduzir, em fotolegendas de notícias, álbum de fotos digital noticioso, cartas de leitor (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.\""
+  },
+  {
+   "objetivo": "Nomear as partes do jornal e pô-las no lugar da página",
+   "folhas": [
+    19,
+    20,
+    21
+   ],
+   "pratica": "Análise linguística/semiótica (alfabetização)",
+   "objeto": "Forma de composição do texto",
+   "habilidade": "HABILIDADE: \"Identificar e reproduzir, em fotolegendas de notícias, álbum de fotos digital noticioso, cartas de leitor (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.\""
+  },
+  {
+   "objetivo": "Saber quem faz a notícia, para quem, e por onde ela circula",
+   "folhas": [
+    22,
+    23,
+    24
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Pôr os fatos da notícia na ordem em que aconteceram",
+   "folhas": [
+    25,
+    26,
+    27
+   ],
+   "pratica": "Análise linguística/semiótica (alfabetização)",
+   "objeto": "Forma de composição do texto",
+   "habilidade": "HABILIDADE: \"Identificar e reproduzir, em fotolegendas de notícias, álbum de fotos digital noticioso, cartas de leitor (revista infantil), digitais ou impressos, a formatação e diagramação específica de cada um desses gêneros, inclusive em suas versões orais.\""
+  },
+  {
+   "objetivo": "Reconhecer por escrito as palavras do jornal",
+   "folhas": [
+    28,
+    29,
+    30
+   ],
+   "pratica": "Escrita (compartilhada e autônoma)",
+   "objeto": "Escrita compartilhada",
+   "habilidade": "HABILIDADE: \"Planejar, produzir, revisar e reescrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Dizer para que serve o texto e de que ele trata",
+   "folhas": [
+    31,
+    32
+   ],
+   "pratica": "Leitura/escuta (compartilhada e autônoma)",
+   "objeto": "Compreensão em leitura",
+   "habilidade": "HABILIDADE: \"Ler e compreender, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  },
+  {
+   "objetivo": "Produzir: escrever a manchete, montar o álbum e fechar o cartaz",
+   "folhas": [
+    33,
+    34,
+    35
+   ],
+   "pratica": "Escrita (compartilhada e autônoma)",
+   "objeto": "Escrita compartilhada",
+   "habilidade": "HABILIDADE: \"Planejar, produzir, revisar e reescrever, em colaboração com os colegas e com a ajuda do professor, fotolegendas em notícias, manchetes e lides em notícias, álbum de fotos digital noticioso e notícias curtas para público infantil, digitais ou impressos, dentre outros gêneros do campo jornalístico, considerando a situação comunicativa e o tema/assunto do texto.\""
+  }
+ ]
+}
